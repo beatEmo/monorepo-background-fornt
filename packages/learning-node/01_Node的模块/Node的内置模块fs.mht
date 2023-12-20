@@ -1,0 +1,1880 @@
+MIME-Version: 1.0
+Content-Location: file:///C:/374DE933/file2851.htm
+Content-Transfer-Encoding: quoted-printable
+Content-Type: text/html; charset="utf-8"
+
+<html xmlns:o=3D"urn:schemas-microsoft-com:office:office"
+xmlns:dt=3D"uuid:C2F41010-65B3-11d1-A29F-00AA00C14882"
+xmlns=3D"http://www.w3.org/TR/REC-html40">
+
+<head>
+<meta http-equiv=3DContent-Type content=3D"text/html; charset=3Dutf-8">
+<meta name=3DProgId content=3DOneNote.File>
+<meta name=3DGenerator content=3D"Microsoft OneNote 15">
+<link id=3DMain-File rel=3DMain-File href=3Dfile2851.htm>
+<link rel=3DFile-List href=3D"file2851.files/filelist.xml">
+</head>
+
+<body lang=3Dzh-CN style=3D'font-family:Calibri;font-size:11.0pt'>
+
+<div style=3D'direction:ltr;border-width:100%'>
+
+<div style=3D'direction:ltr;margin-top:0in;margin-left:0in;width:7.7291in'>
+
+<div style=3D'direction:ltr;margin-top:0in;margin-left:0in;width:2.8409in'>
+
+<p style=3D'margin:0in;font-family:"Microsoft YaHei Light";font-size:20.0pt=
+'><span
+lang=3Den-US>Node</span><span lang=3Dzh-CN>的内置模块</span><span lang=
+=3Den-US>fs</span></p>
+
+</div>
+
+<div style=3D'direction:ltr;margin-top:.0388in;margin-left:0in;width:1.7736=
+in'>
+
+<p style=3D'margin:0in;font-size:10.0pt;color:#767676'><span style=3D'font-=
+family:
+Calibri'>2023</span><span style=3D'font-family:"Microsoft YaHei"'>年</span=
+><span
+style=3D'font-family:Calibri'>12</span><span style=3D'font-family:"Microsof=
+t YaHei"'>月</span><span
+style=3D'font-family:Calibri'>17</span><span style=3D'font-family:"Microsof=
+t YaHei"'>日</span></p>
+
+<p style=3D'margin:0in;font-family:Calibri;font-size:10.0pt;color:#767676'>=
+20:26</p>
+
+</div>
+
+<div style=3D'direction:ltr;margin-top:.4895in;margin-left:0in;width:7.7291=
+in'>
+
+<h2 style=3D'margin:0in;font-size:14.0pt;color:#2E75B5'><span style=3D'font=
+-family:
+"Microsoft YaHei"' lang=3Dzh-CN>内置模块</span><span style=3D'font-fami=
+ly:Calibri'
+lang=3Den-US> fs</span></h2>
+
+<ul type=3Ddisc style=3D'direction:ltr;unicode-bidi:embed;margin-top:0in;
+ margin-bottom:0in'>
+ <li style=3D'margin-top:0;margin-bottom:0;vertical-align:middle'><span
+     style=3D'font-family:Calibri;font-size:11.0pt' lang=3Den-US>what</span=
+><span
+     style=3D'font-family:"Microsoft YaHei";font-size:11.0pt' lang=3Dzh-CN>=
+：</span><span
+     style=3D'font-family:"Microsoft YaHei";font-size:11.0pt' lang=3Den-US>=
+File
+     System</span><span style=3D'font-family:"Microsoft YaHei";font-size:11=
+.0pt'
+     lang=3Dzh-CN>的缩写，表示文件系统</span></li>
+ <li style=3D'margin-top:0;margin-bottom:0;vertical-align:middle'><span
+     style=3D'font-family:"Microsoft YaHei";font-size:11.0pt' lang=3Dzh-CN>=
+文件系统对于服务端语言或框架是一个</span><span
+     style=3D'font-weight:bold;font-style:italic;text-decoration:underline;
+     font-family:"Microsoft YaHei";font-size:11.0pt;color:#E84C22' lang=3Dz=
+h-CN>基本的东西</span><span
+     style=3D'font-family:"Microsoft YaHei";font-size:11.0pt' lang=3Dzh-CN>=
+（用户将某些音频视频、图片以文件形式存在操作系统上=
+），</span><span
+     style=3D'font-family:"Microsoft YaHei";font-size:11.0pt' lang=3Den-US>=
+Node</span><span
+     style=3D'font-family:"Microsoft YaHei";font-size:11.0pt' lang=3Dzh-CN>=
+自己的文件操作模块就是</span><span
+     style=3D'font-family:"Microsoft YaHei";font-size:11.0pt' lang=3Den-US>=
+ fs</span><span
+     style=3D'font-family:"Microsoft YaHei";font-size:11.0pt' lang=3Dzh-CN>=
+，借助</span><span
+     style=3D'font-family:"Microsoft YaHei";font-size:11.0pt' lang=3Den-US>=
+node</span><span
+     style=3D'font-family:"Microsoft YaHei";font-size:11.0pt' lang=3Dzh-CN>=
+封装的文件系统，可以在任何</span><span
+     style=3D'font-weight:bold;font-style:italic;text-decoration:underline;
+     font-family:"Microsoft YaHei";font-size:11.0pt;color:#E84C22' lang=3Dz=
+h-CN>其他系统</span><span
+     style=3D'font-family:"Microsoft YaHei";font-size:11.0pt' lang=3Dzh-CN>=
+（</span><span
+     style=3D'font-family:"Microsoft YaHei";font-size:11.0pt' lang=3Den-US>=
+window</span><span
+     style=3D'font-family:"Microsoft YaHei";font-size:11.0pt' lang=3Dzh-CN>=
+、</span><span
+     style=3D'font-family:"Microsoft YaHei";font-size:11.0pt' lang=3Den-US>=
+mac</span><span
+     style=3D'font-family:"Microsoft YaHei";font-size:11.0pt' lang=3Dzh-CN>=
+等）上</span><span
+     style=3D'font-weight:bold;font-style:italic;text-decoration:underline;
+     font-family:"Microsoft YaHei";font-size:11.0pt;color:#E84C22' lang=3Dz=
+h-CN>直接操作文件</span></li>
+</ul>
+
+<p style=3D'margin:0in;font-family:Calibri;font-size:11.0pt' lang=3Den-US>&=
+nbsp;</p>
+
+<h2 style=3D'margin:0in;font-size:14.0pt;color:#2E75B5'><span style=3D'font=
+-family:
+Calibri' lang=3Den-US>fs</span><span style=3D'font-family:"Microsoft YaHei"'
+lang=3Dzh-CN>的</span><span style=3D'font-family:Calibri' lang=3Den-US>API=
+</span><span
+style=3D'font-family:"Microsoft YaHei"' lang=3Dzh-CN>分类</span></h2>
+
+<ul type=3Ddisc style=3D'direction:ltr;unicode-bidi:embed;margin-top:0in;
+ margin-bottom:0in'>
+ <li style=3D'margin-top:0;margin-bottom:0;vertical-align:middle'><span
+     style=3D'font-family:"Microsoft YaHei";font-size:11.0pt'>参考文档�=
+�� </span><a
+     href=3D"https://nodejs.org/docs/latest-v16.x/api/fs.html"><span
+     style=3D'font-family:"Microsoft YaHei";font-size:11.0pt'>https://nodej=
+s.org/docs/latest-v16.x/api/fs.html</span></a><span
+     style=3D'font-family:"Microsoft YaHei";font-size:11.0pt'> </span></li>
+ <li style=3D'margin-top:0;margin-bottom:0;vertical-align:middle'><span
+     style=3D'font-family:"Microsoft YaHei";font-size:11.0pt'>基本的操�=
+��方式：</span></li>
+ <ul type=3Dcircle style=3D'direction:ltr;unicode-bidi:embed;margin-top:0in;
+  margin-bottom:0in'>
+  <li style=3D'margin-top:0;margin-bottom:0;vertical-align:middle'><span
+      style=3D'font-family:"Microsoft YaHei";font-size:11.0pt' lang=3Dzh-CN=
+>方式一：</span><span
+      style=3D'font-weight:bold;font-style:italic;text-decoration:underline;
+      font-family:"Microsoft YaHei";font-size:11.0pt;color:#E84C22' lang=3D=
+zh-CN>同步操作</span><span
+      style=3D'font-weight:bold;font-style:italic;text-decoration:underline;
+      font-family:"Microsoft YaHei";font-size:11.0pt;color:#E84C22' lang=3D=
+en-US>
+      </span><span style=3D'font-family:"Microsoft YaHei";font-size:11.0pt'
+      lang=3Dzh-CN>文件，代码被</span><span style=3D'font-weight:bold=
+;font-style:italic;
+      text-decoration:underline;font-family:"Microsoft YaHei";font-size:11.=
+0pt;
+      color:#E84C22' lang=3Dzh-CN>阻塞</span></li>
+  <li style=3D'margin-top:0;margin-bottom:0;vertical-align:middle'><span
+      style=3D'font-family:"Microsoft YaHei";font-size:11.0pt' lang=3Dzh-CN=
+>方式二：</span><span
+      style=3D'font-weight:bold;font-style:italic;text-decoration:underline;
+      font-family:"Microsoft YaHei";font-size:11.0pt;color:#E84C22' lang=3D=
+zh-CN>异步回调</span><span
+      style=3D'font-weight:bold;font-style:italic;text-decoration:underline;
+      font-family:"Microsoft YaHei";font-size:11.0pt;color:#E84C22' lang=3D=
+en-US>
+      </span><span style=3D'font-family:"Microsoft YaHei";font-size:11.0pt'
+      lang=3Dzh-CN>操作文件，代码</span><span style=3D'font-weight:b=
+old;font-style:italic;
+      text-decoration:underline;font-family:"Microsoft YaHei";font-size:11.=
+0pt;
+      color:#E84C22' lang=3Dzh-CN>不会</span><span style=3D'font-weight:b=
+old;
+      font-style:italic;text-decoration:underline;font-family:"Microsoft Ya=
+Hei";
+      font-size:11.0pt;color:#E84C22' lang=3Den-US> </span><span
+      style=3D'font-family:"Microsoft YaHei";font-size:11.0pt' lang=3Dzh-CN=
+>被阻塞，获取到结果</span><span
+      style=3D'font-family:"Microsoft YaHei";font-size:11.0pt' lang=3Den-US=
+> </span><span
+      style=3D'font-weight:bold;font-style:italic;text-decoration:underline;
+      font-family:"Microsoft YaHei";font-size:11.0pt;color:#E84C22' lang=3D=
+zh-CN>执行回调</span></li>
+  <li style=3D'margin-top:0;margin-bottom:0;vertical-align:middle'><span
+      style=3D'font-family:"Microsoft YaHei";font-size:11.0pt' lang=3Dzh-CN=
+>方式三：</span><span
+      style=3D'font-weight:bold;font-style:italic;text-decoration:underline;
+      font-family:"Microsoft YaHei";font-size:11.0pt;color:#E84C22' lang=3D=
+zh-CN>异步</span><span
+      style=3D'font-weight:bold;font-style:italic;text-decoration:underline;
+      font-family:"Microsoft YaHei";font-size:11.0pt;color:#E84C22' lang=3D=
+en-US>Promise
+      </span><span style=3D'font-family:"Microsoft YaHei";font-size:11.0pt'
+      lang=3Dzh-CN>操作文件，代码</span><span style=3D'font-weight:b=
+old;font-style:italic;
+      text-decoration:underline;font-family:"Microsoft YaHei";font-size:11.=
+0pt;
+      color:#E84C22' lang=3Dzh-CN>不会</span><span style=3D'font-weight:b=
+old;
+      font-style:italic;text-decoration:underline;font-family:"Microsoft Ya=
+Hei";
+      font-size:11.0pt;color:#E84C22' lang=3Den-US> </span><span
+      style=3D'font-family:"Microsoft YaHei";font-size:11.0pt' lang=3Dzh-CN=
+>被阻塞，通过</span><span
+      style=3D'font-family:"Microsoft YaHei";font-size:11.0pt' lang=3Den-US=
+>fs.promise</span><span
+      style=3D'font-family:"Microsoft YaHei";font-size:11.0pt' lang=3Dzh-CN=
+>操作，</span><span
+      style=3D'font-weight:bold;font-style:italic;text-decoration:underline;
+      font-family:"Microsoft YaHei";font-size:11.0pt;color:#E84C22' lang=3D=
+zh-CN>返回一个</span><span
+      style=3D'font-weight:bold;font-style:italic;text-decoration:underline;
+      font-family:"Microsoft YaHei";font-size:11.0pt;color:#E84C22' lang=3D=
+en-US>Promise</span></li>
+ </ul>
+</ul>
+
+<p style=3D'margin:0in;font-family:"Microsoft YaHei";font-size:11.0pt'>&nbs=
+p;</p>
+
+<h2 style=3D'margin:0in;font-size:14.0pt;color:#2E75B5'><span style=3D'font=
+-family:
+"Microsoft YaHei"' lang=3Dzh-CN>文件读取的</span><span style=3D'font-f=
+amily:Calibri'
+lang=3Den-US>api</span></h2>
+
+<ul type=3Ddisc style=3D'direction:ltr;unicode-bidi:embed;margin-top:0in;
+ margin-bottom:0in'>
+ <li style=3D'margin-top:0;margin-bottom:0;vertical-align:middle;color:#E84=
+C22'><span
+     style=3D'font-weight:bold;font-style:italic;text-decoration:underline;
+     font-family:微软雅黑;font-size:11.0pt' lang=3Dzh-CN>fs.readFileSyn=
+c(</span><span
+     style=3D'font-weight:bold;font-style:italic;text-decoration:underline;
+     font-family:微软雅黑;font-size:11.0pt' lang=3Den-US> </span><span
+     style=3D'font-weight:bold;font-style:italic;text-decoration:underline;
+     font-family:微软雅黑;font-size:11.0pt' lang=3Dzh-CN>path[</span><s=
+pan
+     style=3D'font-weight:bold;font-style:italic;text-decoration:underline;
+     font-family:微软雅黑;font-size:11.0pt' lang=3Den-US> </span><span
+     style=3D'font-weight:bold;font-style:italic;text-decoration:underline;
+     font-family:微软雅黑;font-size:11.0pt' lang=3Dzh-CN>, options</spa=
+n><span
+     style=3D'font-weight:bold;font-style:italic;text-decoration:underline;
+     font-family:微软雅黑;font-size:11.0pt' lang=3Den-US> </span><span
+     style=3D'font-weight:bold;font-style:italic;text-decoration:underline;
+     font-family:微软雅黑;font-size:11.0pt' lang=3Dzh-CN>])</span></li>
+ <ul type=3Dcircle style=3D'direction:ltr;unicode-bidi:embed;margin-top:0in;
+  margin-bottom:0in'>
+  <li style=3D'margin-top:0;margin-bottom:0;vertical-align:middle'><span
+      style=3D'font-family:微软雅黑;font-size:11.0pt'>参数：</span><=
+/li>
+  <ul type=3Ddisc style=3D'direction:ltr;unicode-bidi:embed;margin-top:0in;
+   margin-bottom:0in'>
+   <li style=3D'margin-top:0;margin-bottom:0;vertical-align:middle'><span
+       style=3D'font-family:微软雅黑;font-size:11.0pt' lang=3Den-US>pat=
+ch</span><span
+       style=3D'font-family:微软雅黑;font-size:11.0pt' lang=3Dzh-CN>：=
+文件名或文件描述符</span></li>
+   <li style=3D'margin-top:0;margin-bottom:0;vertical-align:middle'><span
+       style=3D'font-family:微软雅黑;font-size:11.0pt' lang=3Den-US>opt=
+ions</span><span
+       style=3D'font-family:微软雅黑;font-size:11.0pt' lang=3Dzh-CN>：=
+</span><span
+       style=3D'font-family:微软雅黑;font-size:11.0pt' lang=3Den-US>[ e=
+ncoding , flag
+       ]<span style=3D'mso-spacerun:yes'>  </span></span><a
+       href=3D"https://nodejs.cn/api/fs.html#file-system-flags"><span
+       style=3D'font-family:微软雅黑;font-size:11.0pt' lang=3Dzh-CN>fla=
+gs的支持</span></a><span
+       style=3D'font-family:微软雅黑;font-size:11.0pt' lang=3Den-US> </=
+span><a
+       href=3D"onenote:#Node的内置模块fs&amp;section-id=3D{0CAC2E51-9A=
+9B-4A28-A0E0-8E7C6F7C412E}&amp;page-id=3D{00272452-861F-42F0-8197-5A5949607=
+6AF}&amp;object-id=3D{1123E84F-CE7F-4312-9363-229B67DB242C}&amp;76&amp;base=
+-path=3DC:\Users\wzy\Documents\OneNote%20笔记本\learning\node.one"><span
+       style=3D'font-family:"Microsoft YaHei";font-size:11.0pt' lang=3Dzh-C=
+N>支持文件系统</span><span
+       style=3D'font-family:Calibri;font-size:11.0pt' lang=3Dzh-CN>flags</s=
+pan></a></li>
+  </ul>
+  <li style=3D'margin-top:0;margin-bottom:0;vertical-align:middle'><span
+      style=3D'font-family:微软雅黑;font-size:11.0pt' lang=3Dzh-CN>返�=
+��值：</span><span
+      style=3D'font-family:微软雅黑;font-size:11.0pt' lang=3Den-US> &lt=
+;String&gt; |
+      &lt;Buffer&gt;</span></li>
+ </ul>
+</ul>
+
+<div style=3D'direction:ltr'>
+
+<table border=3D1 cellpadding=3D0 cellspacing=3D0 valign=3Dtop style=3D'dir=
+ection:ltr;
+ border-collapse:collapse;border-style:solid;border-color:#A3A3A3;border-wi=
+dth:
+ 1pt;margin-left:.3333in' title=3D"" summary=3D"">
+ <tr>
+  <td style=3D'border-style:solid;border-color:#A3A3A3;border-width:1pt;
+  vertical-align:top;width:5.8145in;padding:2.0pt 3.0pt 2.0pt 3.0pt'>
+  <p style=3D'margin:0in;line-height:16pt;font-family:Calibri;font-size:11.=
+0pt'>&nbsp;</p>
+  <p style=3D'margin:0in;font-family:Consolas;font-size:12.0pt'><span
+  style=3D'color:#4F1C71'>const </span><span style=3D'color:#F07178'>fs </s=
+pan><span
+  style=3D'color:#4F1C71'>=3D </span><span style=3D'color:#123786'>require<=
+/span><span
+  style=3D'color:#667070'>(</span><span style=3D'color:#407F98'>&quot;</spa=
+n><span
+  style=3D'color:#869F61'>fs</span><span style=3D'color:#407F98'>&quot;</sp=
+an><span
+  style=3D'color:#667070'>)</span><span style=3D'color:#407F98'>;</span></p>
+  <p style=3D'margin:0in;font-size:12.0pt;color:#546E7A'><span style=3D'fon=
+t-style:
+  italic;font-family:Consolas'>// 1. </span><span style=3D'font-style:itali=
+c;
+  font-family:"Microsoft YaHei"'>同步读取文件</span></p>
+  <p style=3D'margin:0in;font-family:Consolas;font-size:12.0pt'><span
+  style=3D'color:#4F1C71'>const </span><span style=3D'color:#F07178'>rs1 </=
+span><span
+  style=3D'color:#4F1C71'>=3D</span><span style=3D'color:#667070'> fs</span=
+><span
+  style=3D'color:#407F98'>.</span><span style=3D'color:#123786'>readFileSyn=
+c</span><span
+  style=3D'color:#667070'>(</span><span style=3D'color:#407F98'>&quot;</spa=
+n><span
+  style=3D'color:#869F61'>./abc.txt</span><span style=3D'color:#407F98'>&qu=
+ot;, {</span></p>
+  <p style=3D'margin:0in;font-family:Consolas;font-size:12.0pt'><span
+  style=3D'color:#667070'>&nbsp; encoding</span><span style=3D'color:#407F9=
+8'>:
+  &quot;</span><span style=3D'color:#869F61'>utf8</span><span style=3D'colo=
+r:#407F98'>&quot;</span></p>
+  <p style=3D'margin:0in;font-family:Consolas;font-size:12.0pt'><span
+  style=3D'color:#407F98'>}</span><span style=3D'color:#667070'>)</span><sp=
+an
+  style=3D'color:#407F98'>;</span></p>
+  <p style=3D'margin:0in;font-family:Consolas;font-size:12.0pt'><span
+  style=3D'color:#667070'>console</span><span style=3D'color:#407F98'>.</sp=
+an><span
+  style=3D'color:#123786'>log</span><span style=3D'color:#667070'>(rs1)</sp=
+an><span
+  style=3D'color:#407F98'>;</span></p>
+  </td>
+ </tr>
+</table>
+
+</div>
+
+<p style=3D'margin:0in;margin-left:.375in;font-family:微软雅黑;font-siz=
+e:11.0pt'>&nbsp;</p>
+
+<ul type=3Ddisc style=3D'direction:ltr;unicode-bidi:embed;margin-top:0in;
+ margin-bottom:0in'>
+ <li style=3D'margin-top:0;margin-bottom:0;vertical-align:middle;color:#E84=
+C22'><span
+     style=3D'font-weight:bold;font-style:italic;text-decoration:underline;
+     font-family:微软雅黑;font-size:11.0pt' lang=3Dzh-CN>fs.readFileSyn=
+c(</span><span
+     style=3D'font-weight:bold;font-style:italic;text-decoration:underline;
+     font-family:微软雅黑;font-size:11.0pt' lang=3Den-US> </span><span
+     style=3D'font-weight:bold;font-style:italic;text-decoration:underline;
+     font-family:微软雅黑;font-size:11.0pt' lang=3Dzh-CN>path[</span><s=
+pan
+     style=3D'font-weight:bold;font-style:italic;text-decoration:underline;
+     font-family:微软雅黑;font-size:11.0pt' lang=3Den-US> </span><span
+     style=3D'font-weight:bold;font-style:italic;text-decoration:underline;
+     font-family:微软雅黑;font-size:11.0pt' lang=3Dzh-CN>, options</spa=
+n><span
+     style=3D'font-weight:bold;font-style:italic;text-decoration:underline;
+     font-family:微软雅黑;font-size:11.0pt' lang=3Den-US> </span><span
+     style=3D'font-weight:bold;font-style:italic;text-decoration:underline;
+     font-family:微软雅黑;font-size:11.0pt' lang=3Dzh-CN>]</span><span
+     style=3D'font-weight:bold;font-style:italic;text-decoration:underline;
+     font-family:微软雅黑;font-size:11.0pt' lang=3Den-US> , callback </=
+span><span
+     style=3D'font-weight:bold;font-style:italic;text-decoration:underline;
+     font-family:微软雅黑;font-size:11.0pt' lang=3Dzh-CN>)</span></li>
+ <ul type=3Dcircle style=3D'direction:ltr;unicode-bidi:embed;margin-top:0in;
+  margin-bottom:0in'>
+  <li style=3D'margin-top:0;margin-bottom:0;vertical-align:middle'><span
+      style=3D'font-family:"Microsoft YaHei";font-size:11.0pt'>参数：</s=
+pan></li>
+  <ul type=3Ddisc style=3D'direction:ltr;unicode-bidi:embed;margin-top:0in;
+   margin-bottom:0in'>
+   <li style=3D'margin-top:0;margin-bottom:0;vertical-align:middle'><span
+       style=3D'font-family:微软雅黑;font-size:11.0pt' lang=3Den-US>pat=
+ch</span><span
+       style=3D'font-family:微软雅黑;font-size:11.0pt' lang=3Dzh-CN>：=
+文件名或文件描述符</span></li>
+   <li style=3D'margin-top:0;margin-bottom:0;vertical-align:middle'><span
+       style=3D'font-family:微软雅黑;font-size:11.0pt' lang=3Den-US>opt=
+ions</span><span
+       style=3D'font-family:微软雅黑;font-size:11.0pt' lang=3Dzh-CN>：=
+</span><span
+       style=3D'font-family:微软雅黑;font-size:11.0pt' lang=3Den-US>[ e=
+ncoding , flag ]
+       </span></li>
+   <li style=3D'margin-top:0;margin-bottom:0;vertical-align:middle'><span
+       style=3D'font-family:"Microsoft YaHei";font-size:11.0pt' lang=3Den-U=
+S>callback(err,
+       data)</span><span style=3D'font-family:"Microsoft YaHei";font-size:1=
+1.0pt'
+       lang=3Dzh-CN>：回调处理函数</span></li>
+  </ul>
+ </ul>
+</ul>
+
+<div style=3D'direction:ltr'>
+
+<table border=3D1 cellpadding=3D0 cellspacing=3D0 valign=3Dtop style=3D'dir=
+ection:ltr;
+ border-collapse:collapse;border-style:solid;border-color:#A3A3A3;border-wi=
+dth:
+ 1pt;margin-left:.3333in' title=3D"" summary=3D"">
+ <tr>
+  <td style=3D'border-style:solid;border-color:#A3A3A3;border-width:1pt;
+  vertical-align:top;width:6.018in;padding:2.0pt 3.0pt 2.0pt 3.0pt'>
+  <p style=3D'margin:0in;font-size:12.0pt;color:#546E7A'><span style=3D'fon=
+t-style:
+  italic;font-family:Consolas'>// 2. </span><span style=3D'font-style:itali=
+c;
+  font-family:"Microsoft YaHei"'>异步回调</span></p>
+  <p style=3D'margin:0in;font-family:Consolas;font-size:12.0pt'><span
+  style=3D'color:#667070'>fs</span><span style=3D'color:#407F98'>.</span><s=
+pan
+  style=3D'color:#123786'>readFile</span><span style=3D'color:#667070'>(</s=
+pan><span
+  style=3D'color:#407F98'>&quot;</span><span style=3D'color:#869F61'>./abc.=
+txt</span><span
+  style=3D'color:#407F98'>&quot;, {</span><span style=3D'color:#667070'> en=
+coding</span><span
+  style=3D'color:#407F98'>: &quot;</span><span style=3D'color:#869F61'>utf8=
+</span><span
+  style=3D'color:#407F98'>&quot; }, (</span><span style=3D'color:#FF5370'>e=
+rr</span><span
+  style=3D'color:#407F98'>, </span><span style=3D'color:#FF5370'>data</span=
+><span
+  style=3D'color:#407F98'>) </span><span style=3D'color:#4F1C71'>=3D&gt; </=
+span><span
+  style=3D'color:#407F98'>{</span></p>
+  <p style=3D'margin:0in;font-family:Consolas;font-size:12.0pt'><span
+  style=3D'color:#667070'>&nbsp; </span><span style=3D'font-style:italic;
+  color:#407F98'>if</span><span style=3D'color:#667070'> (err) </span><span
+  style=3D'color:#407F98'>{</span></p>
+  <p style=3D'margin:0in;font-size:12.0pt'><span style=3D'font-family:Conso=
+las;
+  color:#667070'>&nbsp; &nbsp; console</span><span style=3D'font-family:Con=
+solas;
+  color:#407F98'>.</span><span style=3D'font-family:Consolas;color:#123786'=
+>log</span><span
+  style=3D'font-family:Consolas;color:#667070'>(</span><span style=3D'font-=
+family:
+  Consolas;color:#407F98'>&quot;</span><span style=3D'font-family:"Microsof=
+t YaHei";
+  color:#869F61'>发生错误</span><span style=3D'font-family:Consolas;col=
+or:#407F98'>&quot;</span><span
+  style=3D'font-family:Consolas;color:#667070'>)</span><span style=3D'font-=
+family:
+  Consolas;color:#407F98'>;</span></p>
+  <p style=3D'margin:0in;font-family:Consolas;font-size:12.0pt'><span
+  style=3D'color:#667070'>&nbsp; &nbsp; </span><span style=3D'font-style:it=
+alic;
+  color:#407F98'>return</span><span style=3D'color:#407F98'>;</span></p>
+  <p style=3D'margin:0in;font-family:Consolas;font-size:12.0pt'><span
+  style=3D'color:#667070'>&nbsp; </span><span style=3D'color:#407F98'>}</sp=
+an></p>
+  <p style=3D'margin:0in;font-family:Consolas;font-size:12.0pt'><span
+  style=3D'color:#667070'>&nbsp; console</span><span style=3D'color:#407F98=
+'>.</span><span
+  style=3D'color:#123786'>log</span><span style=3D'color:#667070'>(data)</s=
+pan><span
+  style=3D'color:#407F98'>;</span></p>
+  <p style=3D'margin:0in;font-family:Consolas;font-size:12.0pt'><span
+  style=3D'color:#407F98'>}</span><span style=3D'color:#667070'>)</span><sp=
+an
+  style=3D'color:#407F98'>;</span></p>
+  </td>
+ </tr>
+</table>
+
+</div>
+
+<p style=3D'margin:0in;margin-left:.375in;font-family:Calibri;font-size:11.=
+0pt'>&nbsp;</p>
+
+<ul type=3Ddisc style=3D'direction:ltr;unicode-bidi:embed;margin-top:0in;
+ margin-bottom:0in'>
+ <li style=3D'margin-top:0;margin-bottom:0;vertical-align:middle;color:#E84=
+C22'><span
+     style=3D'font-weight:bold;font-style:italic;text-decoration:underline;
+     font-family:微软雅黑;font-size:11.0pt' lang=3Dzh-CN>fsPromises.rea=
+dFile(</span><span
+     style=3D'font-weight:bold;font-style:italic;text-decoration:underline;
+     font-family:微软雅黑;font-size:11.0pt' lang=3Den-US> </span><span
+     style=3D'font-weight:bold;font-style:italic;text-decoration:underline;
+     font-family:微软雅黑;font-size:11.0pt' lang=3Dzh-CN>path</span><sp=
+an
+     style=3D'font-weight:bold;font-style:italic;text-decoration:underline;
+     font-family:微软雅黑;font-size:11.0pt' lang=3Den-US> </span><span
+     style=3D'font-weight:bold;font-style:italic;text-decoration:underline;
+     font-family:微软雅黑;font-size:11.0pt' lang=3Dzh-CN>[, options</sp=
+an><span
+     style=3D'font-weight:bold;font-style:italic;text-decoration:underline;
+     font-family:微软雅黑;font-size:11.0pt' lang=3Den-US> </span><span
+     style=3D'font-weight:bold;font-style:italic;text-decoration:underline;
+     font-family:微软雅黑;font-size:11.0pt' lang=3Dzh-CN>])</span></li>
+ <ul type=3Dcircle style=3D'direction:ltr;unicode-bidi:embed;margin-top:0in;
+  margin-bottom:0in'>
+  <li style=3D'margin-top:0;margin-bottom:0;vertical-align:middle'><span
+      style=3D'font-family:"Microsoft YaHei";font-size:11.0pt'>参数：</s=
+pan></li>
+  <ul type=3Ddisc style=3D'direction:ltr;unicode-bidi:embed;margin-top:0in;
+   margin-bottom:0in'>
+   <li style=3D'margin-top:0;margin-bottom:0;vertical-align:middle'><span
+       style=3D'font-family:微软雅黑;font-size:11.0pt' lang=3Den-US>pat=
+ch</span><span
+       style=3D'font-family:微软雅黑;font-size:11.0pt' lang=3Dzh-CN>：=
+文件名或文件描述符</span></li>
+   <li style=3D'margin-top:0;margin-bottom:0;vertical-align:middle'><span
+       style=3D'font-family:微软雅黑;font-size:11.0pt' lang=3Den-US>opt=
+ions</span><span
+       style=3D'font-family:微软雅黑;font-size:11.0pt' lang=3Dzh-CN>：=
+</span><span
+       style=3D'font-family:微软雅黑;font-size:11.0pt' lang=3Den-US>[ e=
+ncoding , flag </span><span
+       style=3D'font-family:Calibri;font-size:11.0pt' lang=3Den-US>, signal=
+</span><span
+       style=3D'font-family:微软雅黑;font-size:11.0pt' lang=3Den-US>] <=
+/span></li>
+   <ul type=3Dsquare style=3D'direction:ltr;unicode-bidi:embed;margin-top:0=
+in;
+    margin-bottom:0in'>
+    <li style=3D'margin-top:0;margin-bottom:0;vertical-align:middle'><span
+        style=3D'font-family:Calibri;font-size:11.0pt' lang=3Den-US>encodin=
+g</span><span
+        style=3D'font-family:"Microsoft YaHei";font-size:11.0pt' lang=3Dzh-=
+CN>：编码格式，默认</span><span
+        style=3D'font-family:"Microsoft YaHei";font-size:11.0pt' lang=3Den-=
+US>null</span></li>
+    <li style=3D'margin-top:0;margin-bottom:0;vertical-align:middle'><span
+        style=3D'font-family:微软雅黑;font-size:11.0pt' lang=3Den-US>fl=
+ag</span><span
+        style=3D'font-family:微软雅黑;font-size:11.0pt' lang=3Dzh-CN>�=
+�写入方式，默认</span><span
+        style=3D'font-family:微软雅黑;font-size:11.0pt' lang=3Den-US> '=
+r'<span
+        style=3D'mso-spacerun:yes'>  </span></span><a
+        href=3D"onenote:#Node的内置模块fs&amp;section-id=3D{0CAC2E51-9=
+A9B-4A28-A0E0-8E7C6F7C412E}&amp;page-id=3D{00272452-861F-42F0-8197-5A594960=
+76AF}&amp;object-id=3D{1123E84F-CE7F-4312-9363-229B67DB242C}&amp;76&amp;bas=
+e-path=3DC:\Users\wzy\Documents\OneNote%20笔记本\learning\node.one"><span
+        style=3D'font-family:"Microsoft YaHei";font-size:11.0pt' lang=3Dzh-=
+CN>支持文件系统</span><span
+        style=3D'font-family:Calibri;font-size:11.0pt' lang=3Dzh-CN>flags</=
+span></a></li>
+    <li style=3D'margin-top:0;margin-bottom:0;vertical-align:middle'><span
+        style=3D'font-family:微软雅黑;font-size:11.0pt' lang=3Den-US>si=
+gnal</span><span
+        style=3D'font-family:微软雅黑;font-size:11.0pt' lang=3Dzh-CN>�=
+�允许终止正在进行的读取文件</span></li>
+   </ul>
+  </ul>
+  <li style=3D'margin-top:0;margin-bottom:0;vertical-align:middle'><span
+      style=3D'font-family:微软雅黑;font-size:11.0pt' lang=3Dzh-CN>返�=
+��值：</span><span
+      style=3D'font-family:微软雅黑;font-size:11.0pt' lang=3Den-US> &lt=
+;Promise&gt;</span></li>
+ </ul>
+</ul>
+
+<div style=3D'direction:ltr'>
+
+<table border=3D1 cellpadding=3D0 cellspacing=3D0 valign=3Dtop style=3D'dir=
+ection:ltr;
+ border-collapse:collapse;border-style:solid;border-color:#A3A3A3;border-wi=
+dth:
+ 1pt;margin-left:.3333in' title=3D"" summary=3D"">
+ <tr>
+  <td style=3D'border-style:solid;border-color:#A3A3A3;border-width:1pt;
+  vertical-align:top;width:6.0076in;padding:2.0pt 3.0pt 2.0pt 3.0pt'>
+  <p style=3D'margin:0in;font-size:12.0pt;color:#546E7A'><span style=3D'fon=
+t-style:
+  italic;font-family:Consolas'>// 3. </span><span style=3D'font-style:itali=
+c;
+  font-family:"Microsoft YaHei"'>异步</span><span style=3D'font-style:ita=
+lic;
+  font-family:Consolas'>Promise</span></p>
+  <p style=3D'margin:0in;font-family:Consolas;font-size:12.0pt'><span
+  style=3D'color:#667070'>fs</span><span style=3D'color:#407F98'>.</span><s=
+pan
+  style=3D'color:#667070'>promises</span></p>
+  <p style=3D'margin:0in;font-family:Consolas;font-size:12.0pt'><span
+  style=3D'color:#667070'>&nbsp; </span><span style=3D'color:#407F98'>.</sp=
+an><span
+  style=3D'color:#123786'>readFile</span><span style=3D'color:#667070'>(</s=
+pan><span
+  style=3D'color:#407F98'>&quot;</span><span style=3D'color:#869F61'>./abc.=
+txt</span><span
+  style=3D'color:#407F98'>&quot;, {</span><span style=3D'color:#667070'> en=
+coding</span><span
+  style=3D'color:#407F98'>: &quot;</span><span style=3D'color:#869F61'>utf8=
+</span><span
+  style=3D'color:#407F98'>&quot; }</span><span style=3D'color:#667070'>)</s=
+pan></p>
+  <p style=3D'margin:0in;font-family:Consolas;font-size:12.0pt'><span
+  style=3D'color:#667070'>&nbsp; </span><span style=3D'color:#407F98'>.</sp=
+an><span
+  style=3D'color:#123786'>then</span><span style=3D'color:#667070'>(</span>=
+<span
+  style=3D'color:#407F98'>(</span><span style=3D'color:#FF5370'>data</span>=
+<span
+  style=3D'color:#407F98'>) </span><span style=3D'color:#4F1C71'>=3D&gt; </=
+span><span
+  style=3D'color:#407F98'>{</span></p>
+  <p style=3D'margin:0in;font-family:Consolas;font-size:12.0pt'><span
+  style=3D'color:#667070'>&nbsp; &nbsp; console</span><span style=3D'color:=
+#407F98'>.</span><span
+  style=3D'color:#123786'>log</span><span style=3D'color:#667070'>(data)</s=
+pan><span
+  style=3D'color:#407F98'>;</span></p>
+  <p style=3D'margin:0in;font-family:Consolas;font-size:12.0pt'><span
+  style=3D'color:#667070'>&nbsp; </span><span style=3D'color:#407F98'>}</sp=
+an><span
+  style=3D'color:#667070'>)</span></p>
+  <p style=3D'margin:0in;font-family:Consolas;font-size:12.0pt'><span
+  style=3D'color:#667070'>&nbsp; </span><span style=3D'color:#407F98'>.</sp=
+an><span
+  style=3D'color:#123786'>catch</span><span style=3D'color:#667070'>(</span=
+><span
+  style=3D'color:#407F98'>(</span><span style=3D'color:#FF5370'>err</span><=
+span
+  style=3D'color:#407F98'>) </span><span style=3D'color:#4F1C71'>=3D&gt; </=
+span><span
+  style=3D'color:#407F98'>{</span></p>
+  <p style=3D'margin:0in;font-family:Consolas;font-size:12.0pt'><span
+  style=3D'color:#667070'>&nbsp; &nbsp; console</span><span style=3D'color:=
+#407F98'>.</span><span
+  style=3D'color:#123786'>log</span><span style=3D'color:#667070'>(err)</sp=
+an><span
+  style=3D'color:#407F98'>;</span></p>
+  <p style=3D'margin:0in;font-family:Consolas;font-size:12.0pt'><span
+  style=3D'color:#667070'>&nbsp; </span><span style=3D'color:#407F98'>}</sp=
+an><span
+  style=3D'color:#667070'>)</span><span style=3D'color:#407F98'>;</span></p>
+  </td>
+ </tr>
+</table>
+
+</div>
+
+<p style=3D'margin:0in;margin-left:.375in;font-family:微软雅黑;font-siz=
+e:11.0pt'>&nbsp;</p>
+
+<ul type=3Ddisc style=3D'direction:ltr;unicode-bidi:embed;margin-top:0in;
+ margin-bottom:0in'>
+ <li style=3D'margin-top:0;margin-bottom:0;vertical-align:middle'><span
+     style=3D'font-weight:bold;font-style:italic;text-decoration:underline;
+     font-family:"Microsoft YaHei";font-size:11.0pt;color:#E84C22'>补充�=
+�</span><a
+     href=3D"onenote:#Node的内置模块fs&amp;section-id=3D{0CAC2E51-9A9B=
+-4A28-A0E0-8E7C6F7C412E}&amp;page-id=3D{00272452-861F-42F0-8197-5A59496076A=
+F}&amp;object-id=3D{F6E4D361-E39C-4535-BA9A-DEDC5E600515}&amp;DF&amp;base-p=
+ath=3DC:\Users\wzy\Documents\OneNote%20笔记本\learning\node.one"><span
+     style=3D'font-family:"Microsoft YaHei";font-size:11.0pt'>文件描述�=
+��（</span><span
+     style=3D'font-family:微软雅黑;font-size:11.0pt'>File descriptors</=
+span><span
+     style=3D'font-family:"Microsoft YaHei";font-size:11.0pt'>）</span></a=
+></li>
+</ul>
+
+<p style=3D'margin:0in;font-family:"Microsoft YaHei";font-size:11.0pt'>&nbs=
+p;</p>
+
+<h2 style=3D'margin:0in;font-size:14.0pt;color:#2E75B5'><span style=3D'font=
+-family:
+"Microsoft YaHei"' lang=3Dzh-CN>文件写入的</span><span style=3D'font-f=
+amily:Calibri'
+lang=3Den-US>api</span></h2>
+
+<ul type=3Ddisc style=3D'direction:ltr;unicode-bidi:embed;margin-top:0in;
+ margin-bottom:0in'>
+ <li style=3D'margin-top:0;margin-bottom:0;vertical-align:middle;color:#E84=
+C22'
+     lang=3Den-US><span style=3D'font-weight:bold;text-decoration:underline;
+     font-family:微软雅黑;font-size:11.0pt'>fs.writeFile(file, data[, o=
+ptions],
+     callback)</span></li>
+ <ul type=3Dcircle style=3D'direction:ltr;unicode-bidi:embed;margin-top:0in;
+  margin-bottom:0in'>
+  <li style=3D'margin-top:0;margin-bottom:0;vertical-align:middle'><span
+      style=3D'font-family:"Microsoft YaHei";font-size:11.0pt'>参数：</s=
+pan></li>
+  <ul type=3Ddisc style=3D'direction:ltr;unicode-bidi:embed;margin-top:0in;
+   margin-bottom:0in'>
+   <li style=3D'margin-top:0;margin-bottom:0;vertical-align:middle'><span
+       style=3D'font-family:微软雅黑;font-size:11.0pt' lang=3Den-US>pat=
+ch</span><span
+       style=3D'font-family:微软雅黑;font-size:11.0pt' lang=3Dzh-CN>：=
+文件名或文件描述符</span></li>
+   <li style=3D'margin-top:0;margin-bottom:0;vertical-align:middle'><span
+       style=3D'font-family:微软雅黑;font-size:11.0pt' lang=3Den-US>opt=
+ions</span><span
+       style=3D'font-family:微软雅黑;font-size:11.0pt' lang=3Dzh-CN>：=
+</span><span
+       style=3D'font-family:微软雅黑;font-size:11.0pt' lang=3Den-US>[ e=
+ncoding , flag </span><span
+       style=3D'font-family:Calibri;font-size:11.0pt' lang=3Den-US>, signal=
+</span><span
+       style=3D'font-family:微软雅黑;font-size:11.0pt' lang=3Den-US>] <=
+/span></li>
+   <ul type=3Dsquare style=3D'direction:ltr;unicode-bidi:embed;margin-top:0=
+in;
+    margin-bottom:0in'>
+    <li style=3D'margin-top:0;margin-bottom:0;vertical-align:middle'><span
+        style=3D'font-family:Calibri;font-size:11.0pt' lang=3Den-US>encodin=
+g</span><span
+        style=3D'font-family:"Microsoft YaHei";font-size:11.0pt' lang=3Dzh-=
+CN>：编码格式，默认</span><span
+        style=3D'font-family:"Microsoft YaHei";font-size:11.0pt' lang=3Den-=
+US>null</span></li>
+    <li style=3D'margin-top:0;margin-bottom:0;vertical-align:middle'><span
+        style=3D'font-family:微软雅黑;font-size:11.0pt' lang=3Den-US>fl=
+ag</span><span
+        style=3D'font-family:微软雅黑;font-size:11.0pt' lang=3Dzh-CN>�=
+�写入方式，默认</span><span
+        style=3D'font-family:微软雅黑;font-size:11.0pt' lang=3Den-US> '=
+w'<span
+        style=3D'mso-spacerun:yes'>  </span></span><a
+        href=3D"onenote:#Node的内置模块fs&amp;section-id=3D{0CAC2E51-9=
+A9B-4A28-A0E0-8E7C6F7C412E}&amp;page-id=3D{00272452-861F-42F0-8197-5A594960=
+76AF}&amp;object-id=3D{1123E84F-CE7F-4312-9363-229B67DB242C}&amp;76&amp;bas=
+e-path=3DC:\Users\wzy\Documents\OneNote%20笔记本\learning\node.one"><span
+        style=3D'font-family:"Microsoft YaHei";font-size:11.0pt' lang=3Dzh-=
+CN>支持文件系统</span><span
+        style=3D'font-family:Calibri;font-size:11.0pt' lang=3Dzh-CN>flags</=
+span></a></li>
+    <li style=3D'margin-top:0;margin-bottom:0;vertical-align:middle'><span
+        style=3D'font-family:微软雅黑;font-size:11.0pt' lang=3Den-US>si=
+gnal</span><span
+        style=3D'font-family:微软雅黑;font-size:11.0pt' lang=3Dzh-CN>�=
+�允许终止正在进行的读取文件</span></li>
+    <li style=3D'margin-top:0;margin-bottom:0;vertical-align:middle'><span
+        style=3D'font-family:微软雅黑;font-size:11.0pt' lang=3Den-US>fl=
+ush</span><span
+        style=3D'font-family:微软雅黑;font-size:11.0pt' lang=3Dzh-CN>�=
+�所有数据都成功写入文件，并且</span><span
+        style=3D'font-family:微软雅黑;font-size:11.0pt' lang=3Den-US>fl=
+ush</span><span
+        style=3D'font-family:微软雅黑;font-size:11.0pt' lang=3Dzh-CN>�=
+�</span><span
+        style=3D'font-family:微软雅黑;font-size:11.0pt' lang=3Den-US>tr=
+ue</span><span
+        style=3D'font-family:微软雅黑;font-size:11.0pt' lang=3Dzh-CN>�=
+�则可用</span><span
+        style=3D'text-decoration:underline;font-family:微软雅黑;font-si=
+ze:11.0pt;
+        color:#E84C22' lang=3Den-US>fs.fsybc()</span><span style=3D'font-fa=
+mily:
+        微软雅黑;font-size:11.0pt' lang=3Dzh-CN>来刷新数据，默�=
+�值</span><span
+        style=3D'font-family:微软雅黑;font-size:11.0pt' lang=3Den-US>fa=
+lse</span></li>
+   </ul>
+   <li style=3D'margin-top:0;margin-bottom:0;vertical-align:middle'><span
+       style=3D'font-family:微软雅黑;font-size:11.0pt' lang=3Den-US>cal=
+lback</span><span
+       style=3D'font-family:微软雅黑;font-size:11.0pt' lang=3Dzh-CN>：=
+形参为</span><span
+       style=3D'font-family:微软雅黑;font-size:11.0pt' lang=3Den-US>err=
+</span></li>
+  </ul>
+ </ul>
+</ul>
+
+<div style=3D'direction:ltr'>
+
+<table border=3D1 cellpadding=3D0 cellspacing=3D0 valign=3Dtop style=3D'dir=
+ection:ltr;
+ border-collapse:collapse;border-style:solid;border-color:#A3A3A3;border-wi=
+dth:
+ 1pt;margin-left:.3333in' title=3D"" summary=3D"">
+ <tr>
+  <td style=3D'border-style:solid;border-color:#A3A3A3;border-width:1pt;
+  vertical-align:top;width:6.1458in;padding:2.0pt 3.0pt 2.0pt 3.0pt'>
+  <p style=3D'margin:0in;font-family:Consolas;font-size:12.0pt'><span
+  style=3D'color:#667070'>fs</span><span style=3D'color:#407F98'>.</span><s=
+pan
+  style=3D'color:#123786'>writeFile</span><span style=3D'color:#667070'>(</=
+span></p>
+  <p style=3D'margin:0in;font-family:Consolas;font-size:12.0pt'><span
+  style=3D'color:#667070'>&nbsp; </span><span style=3D'color:#407F98'>&quot=
+;</span><span
+  style=3D'color:#869F61'>./ccc.txt</span><span style=3D'color:#407F98'>&qu=
+ot;,</span></p>
+  <p style=3D'margin:0in;font-family:Consolas;font-size:12.0pt'><span
+  style=3D'color:#667070'>&nbsp; context</span><span style=3D'color:#407F98=
+'>,</span></p>
+  <p style=3D'margin:0in;font-family:Consolas;font-size:12.0pt'><span
+  style=3D'color:#667070'>&nbsp; </span><span style=3D'color:#407F98'>{</sp=
+an></p>
+  <p style=3D'margin:0in;font-family:Consolas;font-size:12.0pt'><span
+  style=3D'color:#667070'>&nbsp; &nbsp; encoding</span><span style=3D'color=
+:#407F98'>:
+  &quot;</span><span style=3D'color:#869F61'>utf8</span><span style=3D'colo=
+r:#407F98'>&quot;,</span></p>
+  <p style=3D'margin:0in;font-family:Consolas;font-size:12.0pt'><span
+  style=3D'color:#667070'>&nbsp; &nbsp; flag</span><span style=3D'color:#40=
+7F98'>:
+  &quot;</span><span style=3D'color:#869F61'>a</span><span style=3D'color:#=
+407F98'>&quot;</span></p>
+  <p style=3D'margin:0in;font-family:Consolas;font-size:12.0pt'><span
+  style=3D'color:#667070'>&nbsp; </span><span style=3D'color:#407F98'>},</s=
+pan></p>
+  <p style=3D'margin:0in;font-family:Consolas;font-size:12.0pt'><span
+  style=3D'color:#667070'>&nbsp; </span><span style=3D'color:#407F98'>(</sp=
+an><span
+  style=3D'color:#FF5370'>err</span><span style=3D'color:#407F98'>) </span>=
+<span
+  style=3D'color:#4F1C71'>=3D&gt; </span><span style=3D'color:#407F98'>{</s=
+pan></p>
+  <p style=3D'margin:0in;font-family:Consolas;font-size:12.0pt'><span
+  style=3D'color:#667070'>&nbsp; &nbsp; </span><span style=3D'font-style:it=
+alic;
+  color:#407F98'>if</span><span style=3D'color:#667070'> (err) </span><span
+  style=3D'color:#407F98'>{</span></p>
+  <p style=3D'margin:0in;font-size:12.0pt'><span style=3D'font-family:Conso=
+las;
+  color:#667070'>&nbsp; &nbsp; &nbsp; console</span><span style=3D'font-fam=
+ily:
+  Consolas;color:#407F98'>.</span><span style=3D'font-family:Consolas;color=
+:#123786'>log</span><span
+  style=3D'font-family:Consolas;color:#667070'>(</span><span style=3D'font-=
+family:
+  Consolas;color:#407F98'>&quot;</span><span style=3D'font-family:"Microsof=
+t YaHei";
+  color:#869F61'>文件写入错误</span><span style=3D'font-family:Consol=
+as;color:#407F98'>&quot;,</span><span
+  style=3D'font-family:Consolas;color:#667070'> err)</span><span
+  style=3D'font-family:Consolas;color:#407F98'>;</span></p>
+  <p style=3D'margin:0in;font-family:Consolas;font-size:12.0pt'><span
+  style=3D'color:#667070'>&nbsp; &nbsp; </span><span style=3D'color:#407F98=
+'>} </span><span
+  style=3D'font-style:italic;color:#407F98'>else </span><span style=3D'colo=
+r:#407F98'>{</span></p>
+  <p style=3D'margin:0in;font-size:12.0pt'><span style=3D'font-family:Conso=
+las;
+  color:#667070'>&nbsp; &nbsp; &nbsp; console</span><span style=3D'font-fam=
+ily:
+  Consolas;color:#407F98'>.</span><span style=3D'font-family:Consolas;color=
+:#123786'>log</span><span
+  style=3D'font-family:Consolas;color:#667070'>(</span><span style=3D'font-=
+family:
+  Consolas;color:#407F98'>&quot;</span><span style=3D'font-family:"Microsof=
+t YaHei";
+  color:#869F61'>文件写入成功</span><span style=3D'font-family:Consol=
+as;color:#407F98'>&quot;</span><span
+  style=3D'font-family:Consolas;color:#667070'>)</span><span style=3D'font-=
+family:
+  Consolas;color:#407F98'>;</span></p>
+  <p style=3D'margin:0in;font-family:Consolas;font-size:12.0pt'><span
+  style=3D'color:#667070'>&nbsp; &nbsp; </span><span style=3D'color:#407F98=
+'>}</span></p>
+  <p style=3D'margin:0in;font-family:Consolas;font-size:12.0pt'><span
+  style=3D'color:#667070'>&nbsp; </span><span style=3D'color:#407F98'>}</sp=
+an></p>
+  <p style=3D'margin:0in;font-family:Consolas;font-size:12.0pt'><span
+  style=3D'color:#667070'>)</span><span style=3D'color:#407F98'>;</span></p>
+  </td>
+ </tr>
+</table>
+
+</div>
+
+<p style=3D'margin:0in;margin-left:.375in;font-family:微软雅黑;font-siz=
+e:11.0pt'
+lang=3Den-US>&nbsp;</p>
+
+<h2 style=3D'margin:0in;font-size:14.0pt;color:#2E75B5'><span style=3D'font=
+-family:
+"Microsoft YaHei"' lang=3Dzh-CN>文件夹操作的</span><span style=3D'fon=
+t-family:Calibri'
+lang=3Den-US>api</span></h2>
+
+<ul type=3Ddisc style=3D'direction:ltr;unicode-bidi:embed;margin-top:0in;
+ margin-bottom:0in'>
+ <li style=3D'margin-top:0;margin-bottom:0;vertical-align:middle;color:#E84=
+C22'
+     lang=3Den-US><span style=3D'font-weight:bold;text-decoration:underline;
+     font-family:微软雅黑;font-size:11.0pt'>fs.mkdir(path[, options], c=
+allback)</span></li>
+ <ul type=3Dcircle style=3D'direction:ltr;unicode-bidi:embed;margin-top:0in;
+  margin-bottom:0in'>
+  <li style=3D'margin-top:0;margin-bottom:0;vertical-align:middle'><span
+      style=3D'font-family:"Microsoft YaHei";font-size:11.0pt'>参数：</s=
+pan></li>
+  <ul type=3Ddisc style=3D'direction:ltr;unicode-bidi:embed;margin-top:0in;
+   margin-bottom:0in'>
+   <li style=3D'margin-top:0;margin-bottom:0;vertical-align:middle'><span
+       style=3D'font-family:微软雅黑;font-size:11.0pt' lang=3Den-US>pat=
+ch</span><span
+       style=3D'font-family:微软雅黑;font-size:11.0pt' lang=3Dzh-CN>：=
+文件名或文件描述符</span></li>
+   <li style=3D'margin-top:0;margin-bottom:0;vertical-align:middle'><span
+       style=3D'font-family:微软雅黑;font-size:11.0pt' lang=3Den-US>opt=
+ions</span><span
+       style=3D'font-family:微软雅黑;font-size:11.0pt' lang=3Dzh-CN>：=
+</span></li>
+   <ul type=3Dsquare style=3D'direction:ltr;unicode-bidi:embed;margin-top:0=
+in;
+    margin-bottom:0in'>
+    <li style=3D'margin-top:0;margin-bottom:0;vertical-align:middle'><span
+        style=3D'font-family:"Microsoft YaHei";font-size:11.0pt'>recursive�=
+��是否可以重复创造同名文件夹</span></li>
+    <li style=3D'margin-top:0;margin-bottom:0;vertical-align:middle'><span
+        style=3D'font-family:微软雅黑;font-size:11.0pt' lang=3Den-US>mo=
+de</span><span
+        style=3D'font-family:微软雅黑;font-size:11.0pt' lang=3Dzh-CN>�=
+�权限和粘性位</span></li>
+   </ul>
+   <li style=3D'margin-top:0;margin-bottom:0;vertical-align:middle'><span
+       style=3D'font-family:微软雅黑;font-size:11.0pt' lang=3Den-US>cal=
+lback</span><span
+       style=3D'font-family:微软雅黑;font-size:11.0pt' lang=3Dzh-CN>：=
+</span></li>
+   <ul type=3Dsquare style=3D'direction:ltr;unicode-bidi:embed;margin-top:0=
+in;
+    margin-bottom:0in'>
+    <li style=3D'margin-top:0;margin-bottom:0;vertical-align:middle' lang=
+=3Den-US><span
+        style=3D'font-family:微软雅黑;font-size:11.0pt'>err</span></li>
+    <li style=3D'margin-top:0;margin-bottom:0;vertical-align:middle'><span
+        style=3D'font-family:微软雅黑;font-size:11.0pt' lang=3Den-US>pa=
+th</span><span
+        style=3D'font-family:微软雅黑;font-size:11.0pt' lang=3Dzh-CN>�=
+�创建的第一个目录路径</span></li>
+   </ul>
+  </ul>
+ </ul>
+</ul>
+
+<div style=3D'direction:ltr'>
+
+<table border=3D1 cellpadding=3D0 cellspacing=3D0 valign=3Dtop style=3D'dir=
+ection:ltr;
+ border-collapse:collapse;border-style:solid;border-color:#A3A3A3;border-wi=
+dth:
+ 1pt;margin-left:.3333in' title=3D"" summary=3D"">
+ <tr>
+  <td style=3D'border-style:solid;border-color:#A3A3A3;border-width:1pt;
+  vertical-align:top;width:6.1902in;padding:2.0pt 3.0pt 2.0pt 3.0pt'>
+  <p style=3D'margin:0in;font-family:Consolas;font-size:12.0pt'><span
+  style=3D'color:#667070'>fs</span><span style=3D'color:#407F98'>.</span><s=
+pan
+  style=3D'color:#123786'>mkdir</span><span style=3D'color:#667070'>(</span=
+></p>
+  <p style=3D'margin:0in;font-family:Consolas;font-size:12.0pt'><span
+  style=3D'color:#667070'>&nbsp; </span><span style=3D'color:#407F98'>&quot=
+;</span><span
+  style=3D'color:#869F61'>./www</span><span style=3D'color:#407F98'>&quot;,=
+</span></p>
+  <p style=3D'margin:0in;font-family:Consolas;font-size:12.0pt'><span
+  style=3D'color:#667070'>&nbsp; </span><span style=3D'color:#407F98'>{</sp=
+an></p>
+  <p style=3D'margin:0in;font-family:Consolas;font-size:12.0pt'><span
+  style=3D'color:#667070'>&nbsp; &nbsp; recursive</span><span style=3D'colo=
+r:#407F98'>:
+  </span><span style=3D'color:#932808'>false</span></p>
+  <p style=3D'margin:0in;font-family:Consolas;font-size:12.0pt'><span
+  style=3D'color:#667070'>&nbsp; </span><span style=3D'color:#407F98'>},</s=
+pan></p>
+  <p style=3D'margin:0in;font-family:Consolas;font-size:12.0pt'><span
+  style=3D'color:#667070'>&nbsp; </span><span style=3D'color:#407F98'>(</sp=
+an><span
+  style=3D'color:#FF5370'>err</span><span style=3D'color:#407F98'>, </span>=
+<span
+  style=3D'color:#FF5370'>path</span><span style=3D'color:#407F98'>) </span=
+><span
+  style=3D'color:#4F1C71'>=3D&gt; </span><span style=3D'color:#407F98'>{</s=
+pan></p>
+  <p style=3D'margin:0in;font-family:Consolas;font-size:12.0pt'><span
+  style=3D'color:#667070'>&nbsp; &nbsp; </span><span style=3D'font-style:it=
+alic;
+  color:#407F98'>if</span><span style=3D'color:#667070'> (err) </span><span
+  style=3D'color:#407F98'>{</span></p>
+  <p style=3D'margin:0in;font-family:Consolas;font-size:12.0pt'><span
+  style=3D'color:#667070'>&nbsp; &nbsp; &nbsp; console</span><span
+  style=3D'color:#407F98'>.</span><span style=3D'color:#123786'>log</span><=
+span
+  style=3D'color:#667070'>(err)</span><span style=3D'color:#407F98'>;</span=
+></p>
+  <p style=3D'margin:0in;font-family:Consolas;font-size:12.0pt'><span
+  style=3D'color:#667070'>&nbsp; &nbsp; &nbsp; </span><span style=3D'font-s=
+tyle:
+  italic;color:#407F98'>return</span><span style=3D'color:#407F98'>;</span>=
+</p>
+  <p style=3D'margin:0in;font-family:Consolas;font-size:12.0pt'><span
+  style=3D'color:#667070'>&nbsp; &nbsp; </span><span style=3D'color:#407F98=
+'>}</span></p>
+  <p style=3D'margin:0in;font-family:Consolas;font-size:12.0pt'><span
+  style=3D'color:#667070'>&nbsp; &nbsp; console</span><span style=3D'color:=
+#407F98'>.</span><span
+  style=3D'color:#123786'>log</span><span style=3D'color:#667070'>(path)</s=
+pan><span
+  style=3D'color:#407F98'>;</span></p>
+  <p style=3D'margin:0in;font-family:Consolas;font-size:12.0pt'><span
+  style=3D'color:#667070'>&nbsp; </span><span style=3D'color:#407F98'>}</sp=
+an></p>
+  <p style=3D'margin:0in;font-family:Consolas;font-size:12.0pt'><span
+  style=3D'color:#667070'>)</span><span style=3D'color:#407F98'>;</span></p>
+  </td>
+ </tr>
+</table>
+
+</div>
+
+<p style=3D'margin:0in;margin-left:.375in;font-family:微软雅黑;font-siz=
+e:11.0pt'>&nbsp;</p>
+
+<ul type=3Ddisc style=3D'direction:ltr;unicode-bidi:embed;margin-top:0in;
+ margin-bottom:0in'>
+ <li style=3D'margin-top:0;margin-bottom:0;vertical-align:middle;color:#E84=
+C22'
+     lang=3Den-US><span style=3D'font-weight:bold;text-decoration:underline;
+     font-family:微软雅黑;font-size:11.0pt'>fs.readdir(path[, options],=
+ callback)</span></li>
+ <ul type=3Dcircle style=3D'direction:ltr;unicode-bidi:embed;margin-top:0in;
+  margin-bottom:0in'>
+  <li style=3D'margin-top:0;margin-bottom:0;vertical-align:middle'><span
+      style=3D'font-family:"Microsoft YaHei";font-size:11.0pt'>参数：</s=
+pan></li>
+  <ul type=3Ddisc style=3D'direction:ltr;unicode-bidi:embed;margin-top:0in;
+   margin-bottom:0in'>
+   <li style=3D'margin-top:0;margin-bottom:0;vertical-align:middle'><span
+       style=3D'font-family:微软雅黑;font-size:11.0pt' lang=3Den-US>pat=
+ch</span><span
+       style=3D'font-family:微软雅黑;font-size:11.0pt' lang=3Dzh-CN>：=
+文件名或文件描述符</span></li>
+   <li style=3D'margin-top:0;margin-bottom:0;vertical-align:middle'><span
+       style=3D'font-family:微软雅黑;font-size:11.0pt' lang=3Den-US>opt=
+ions</span><span
+       style=3D'font-family:微软雅黑;font-size:11.0pt' lang=3Dzh-CN>：=
+</span></li>
+   <ul type=3Dsquare style=3D'direction:ltr;unicode-bidi:embed;margin-top:0=
+in;
+    margin-bottom:0in'>
+    <li style=3D'margin-top:0;margin-bottom:0;vertical-align:middle'><span
+        style=3D'font-family:Calibri;font-size:11.0pt' lang=3Den-US>encodin=
+g</span><span
+        style=3D'font-family:"Microsoft YaHei";font-size:11.0pt' lang=3Dzh-=
+CN>：编码格式，默认</span><span
+        style=3D'font-family:"Microsoft YaHei";font-size:11.0pt' lang=3Den-=
+US>utf8</span></li>
+    <li style=3D'margin-top:0;margin-bottom:0;vertical-align:middle'><span
+        style=3D'font-family:"Microsoft YaHei";font-size:11.0pt'>recursive�=
+��是否递归遍历读取目录的内容</span></li>
+    <li style=3D'margin-top:0;margin-bottom:0;vertical-align:middle'><span
+        style=3D'font-family:微软雅黑;font-size:11.0pt' lang=3Den-US>wi=
+thFileTypes</span><span
+        style=3D'font-family:微软雅黑;font-size:11.0pt' lang=3Dzh-CN>�=
+�是否获取文件夹的信息</span></li>
+   </ul>
+   <li style=3D'margin-top:0;margin-bottom:0;vertical-align:middle'><span
+       style=3D'font-family:微软雅黑;font-size:11.0pt' lang=3Den-US>cal=
+lback</span><span
+       style=3D'font-family:微软雅黑;font-size:11.0pt' lang=3Dzh-CN>：=
+</span></li>
+   <ul type=3Dsquare style=3D'direction:ltr;unicode-bidi:embed;margin-top:0=
+in;
+    margin-bottom:0in'>
+    <li style=3D'margin-top:0;margin-bottom:0;vertical-align:middle' lang=
+=3Den-US><span
+        style=3D'font-family:微软雅黑;font-size:11.0pt'>err</span></li>
+    <li style=3D'margin-top:0;margin-bottom:0;vertical-align:middle'><span
+        style=3D'font-family:微软雅黑;font-size:11.0pt' lang=3Den-US>fi=
+les</span><span
+        style=3D'font-family:微软雅黑;font-size:11.0pt' lang=3Dzh-CN>�=
+�</span><span
+        style=3D'font-family:微软雅黑;font-size:11.0pt' lang=3Den-US>&l=
+t;String[]&gt; |
+        &lt;Buffer[]&gt; </span></li>
+   </ul>
+  </ul>
+ </ul>
+</ul>
+
+<div style=3D'direction:ltr'>
+
+<table border=3D1 cellpadding=3D0 cellspacing=3D0 valign=3Dtop style=3D'dir=
+ection:ltr;
+ border-collapse:collapse;border-style:solid;border-color:#A3A3A3;border-wi=
+dth:
+ 1pt;margin-left:.3333in' title=3D"" summary=3D"">
+ <tr>
+  <td style=3D'border-style:solid;border-color:#A3A3A3;border-width:1pt;
+  vertical-align:top;width:6.1173in;padding:2.0pt 3.0pt 2.0pt 3.0pt'>
+  <p style=3D'margin:0in;font-size:12.0pt;color:#546E7A'><span style=3D'fon=
+t-style:
+  italic;font-family:Consolas'>// 1. </span><span style=3D'font-style:itali=
+c;
+  font-family:"Microsoft YaHei"'>读取文件夹 结果以字符串给出</=
+span></p>
+  <p style=3D'margin:0in;font-family:Consolas;font-size:12.0pt'><span
+  style=3D'color:#667070'>fs</span><span style=3D'color:#407F98'>.</span><s=
+pan
+  style=3D'color:#123786'>readdir</span><span style=3D'color:#667070'>(</sp=
+an><span
+  style=3D'color:#407F98'>&quot;</span><span style=3D'color:#869F61'>./aaa<=
+/span><span
+  style=3D'color:#407F98'>&quot;, (</span><span style=3D'color:#FF5370'>err=
+</span><span
+  style=3D'color:#407F98'>, </span><span style=3D'color:#FF5370'>files</spa=
+n><span
+  style=3D'color:#407F98'>) </span><span style=3D'color:#4F1C71'>=3D&gt; </=
+span><span
+  style=3D'color:#407F98'>{</span></p>
+  <p style=3D'margin:0in;font-family:Consolas;font-size:12.0pt'><span
+  style=3D'color:#667070'>&nbsp; console</span><span style=3D'color:#407F98=
+'>.</span><span
+  style=3D'color:#123786'>log</span><span style=3D'color:#667070'>(files)</=
+span><span
+  style=3D'color:#407F98'>;</span></p>
+  <p style=3D'margin:0in;font-family:Consolas;font-size:12.0pt'><span
+  style=3D'color:#407F98'>}</span><span style=3D'color:#667070'>)</span><sp=
+an
+  style=3D'color:#407F98'>;</span></p>
+  <p style=3D'margin:0in;line-height:16pt;font-family:Calibri;font-size:11.=
+0pt'>&nbsp;</p>
+  <p style=3D'margin:0in;font-size:12.0pt;color:#546E7A'><span style=3D'fon=
+t-style:
+  italic;font-family:Consolas'>// 2. </span><span style=3D'font-style:itali=
+c;
+  font-family:"Microsoft YaHei"'>读取文件夹 获取文件夹的信息</=
+span></p>
+  <p style=3D'margin:0in;font-family:Consolas;font-size:12.0pt'><span
+  style=3D'color:#667070'>fs</span><span style=3D'color:#407F98'>.</span><s=
+pan
+  style=3D'color:#123786'>readdir</span><span style=3D'color:#667070'>(</sp=
+an><span
+  style=3D'color:#407F98'>&quot;</span><span style=3D'color:#869F61'>./www<=
+/span><span
+  style=3D'color:#407F98'>&quot;, {</span><span style=3D'color:#667070'>
+  withFileTypes</span><span style=3D'color:#407F98'>: </span><span
+  style=3D'color:#932808'>true </span><span style=3D'color:#407F98'>}, (</s=
+pan><span
+  style=3D'color:#FF5370'>err</span><span style=3D'color:#407F98'>, </span>=
+<span
+  style=3D'color:#FF5370'>files</span><span style=3D'color:#407F98'>) </spa=
+n><span
+  style=3D'color:#4F1C71'>=3D&gt; </span><span style=3D'color:#407F98'>{</s=
+pan></p>
+  <p style=3D'margin:0in;font-family:Consolas;font-size:12.0pt'><span
+  style=3D'color:#667070'>&nbsp; files</span><span style=3D'color:#407F98'>=
+.</span><span
+  style=3D'color:#123786'>forEach</span><span style=3D'color:#667070'>(</sp=
+an><span
+  style=3D'color:#407F98'>(</span><span style=3D'color:#FF5370'>file</span>=
+<span
+  style=3D'color:#407F98'>) </span><span style=3D'color:#4F1C71'>=3D&gt; </=
+span><span
+  style=3D'color:#407F98'>{</span></p>
+  <p style=3D'margin:0in;font-family:Consolas;font-size:12.0pt'><span
+  style=3D'color:#667070'>&nbsp; &nbsp; </span><span style=3D'font-style:it=
+alic;
+  color:#407F98'>if</span><span style=3D'color:#667070'> (file</span><span
+  style=3D'color:#407F98'>.</span><span style=3D'color:#123786'>isDirectory=
+</span><span
+  style=3D'color:#667070'>()) </span><span style=3D'color:#407F98'>{</span>=
+</p>
+  <p style=3D'margin:0in;font-size:12.0pt'><span style=3D'font-family:Conso=
+las;
+  color:#667070'>&nbsp; &nbsp; &nbsp; console</span><span style=3D'font-fam=
+ily:
+  Consolas;color:#407F98'>.</span><span style=3D'font-family:Consolas;color=
+:#123786'>log</span><span
+  style=3D'font-family:Consolas;color:#667070'>(file</span><span
+  style=3D'font-family:Consolas;color:#407F98'>, &quot;</span><span
+  style=3D'font-family:"Microsoft YaHei";color:#869F61'>是一个文件夹<=
+/span><span
+  style=3D'font-family:Consolas;color:#407F98'>&quot;</span><span
+  style=3D'font-family:Consolas;color:#667070'>)</span><span style=3D'font-=
+family:
+  Consolas;color:#407F98'>;</span></p>
+  <p style=3D'margin:0in;font-family:Consolas;font-size:12.0pt'><span
+  style=3D'color:#667070'>&nbsp; &nbsp; &nbsp; fs</span><span style=3D'colo=
+r:#407F98'>.</span><span
+  style=3D'color:#123786'>readdir</span><span style=3D'color:#667070'>(</sp=
+an><span
+  style=3D'color:#407F98'>`</span><span style=3D'color:#869F61'>./www/</spa=
+n><span
+  style=3D'color:#407F98'>${</span><span style=3D'color:#667070'>file</span=
+><span
+  style=3D'color:#407F98'>.</span><span style=3D'color:#667070'>name</span>=
+<span
+  style=3D'color:#407F98'>}`, (</span><span style=3D'color:#FF5370'>err</sp=
+an><span
+  style=3D'color:#407F98'>, </span><span style=3D'color:#FF5370'>files</spa=
+n><span
+  style=3D'color:#407F98'>) </span><span style=3D'color:#4F1C71'>=3D&gt; </=
+span><span
+  style=3D'color:#407F98'>{</span></p>
+  <p style=3D'margin:0in;font-family:Consolas;font-size:12.0pt'><span
+  style=3D'color:#667070'>&nbsp; &nbsp; &nbsp; &nbsp; console</span><span
+  style=3D'color:#407F98'>.</span><span style=3D'color:#123786'>log</span><=
+span
+  style=3D'color:#667070'>(files)</span><span style=3D'color:#407F98'>;</sp=
+an></p>
+  <p style=3D'margin:0in;font-family:Consolas;font-size:12.0pt'><span
+  style=3D'color:#667070'>&nbsp; &nbsp; &nbsp; </span><span style=3D'color:=
+#407F98'>}</span><span
+  style=3D'color:#667070'>)</span><span style=3D'color:#407F98'>;</span></p>
+  <p style=3D'margin:0in;font-family:Consolas;font-size:12.0pt'><span
+  style=3D'color:#667070'>&nbsp; &nbsp; </span><span style=3D'color:#407F98=
+'>} </span><span
+  style=3D'font-style:italic;color:#407F98'>else </span><span style=3D'colo=
+r:#407F98'>{</span></p>
+  <p style=3D'margin:0in;font-size:12.0pt'><span style=3D'font-family:Conso=
+las;
+  color:#667070'>&nbsp; &nbsp; &nbsp; console</span><span style=3D'font-fam=
+ily:
+  Consolas;color:#407F98'>.</span><span style=3D'font-family:Consolas;color=
+:#123786'>log</span><span
+  style=3D'font-family:Consolas;color:#667070'>(file</span><span
+  style=3D'font-family:Consolas;color:#407F98'>, &quot;</span><span
+  style=3D'font-family:"Microsoft YaHei";color:#869F61'>是一个文件</sp=
+an><span
+  style=3D'font-family:Consolas;color:#407F98'>&quot;</span><span
+  style=3D'font-family:Consolas;color:#667070'>)</span><span style=3D'font-=
+family:
+  Consolas;color:#407F98'>;</span></p>
+  <p style=3D'margin:0in;font-family:Consolas;font-size:12.0pt'><span
+  style=3D'color:#667070'>&nbsp; &nbsp; </span><span style=3D'color:#407F98=
+'>}</span></p>
+  <p style=3D'margin:0in;font-family:Consolas;font-size:12.0pt'><span
+  style=3D'color:#667070'>&nbsp; </span><span style=3D'color:#407F98'>}</sp=
+an><span
+  style=3D'color:#667070'>)</span><span style=3D'color:#407F98'>;</span></p>
+  <p style=3D'margin:0in;font-family:Consolas;font-size:12.0pt'><span
+  style=3D'color:#407F98'>}</span><span style=3D'color:#667070'>)</span><sp=
+an
+  style=3D'color:#407F98'>;</span></p>
+  <p style=3D'margin:0in;line-height:16pt;font-family:Calibri;font-size:11.=
+0pt'>&nbsp;</p>
+  <p style=3D'margin:0in;font-size:12.0pt;color:#546E7A'><span style=3D'fon=
+t-style:
+  italic;font-family:Consolas'>// </span><span style=3D'font-style:italic;
+  font-family:"Microsoft YaHei"'>递归读取文件中所有文件</span></=
+p>
+  <p style=3D'margin:0in;font-family:Consolas;font-size:12.0pt'><span
+  style=3D'color:#4F1C71'>function </span><span style=3D'color:#123786'>rea=
+dDirectory</span><span
+  style=3D'color:#407F98'>(</span><span style=3D'color:#FF5370'>path</span>=
+<span
+  style=3D'color:#407F98'>) {</span></p>
+  <p style=3D'margin:0in;font-family:Consolas;font-size:12.0pt'><span
+  style=3D'color:#667070'>&nbsp; fs</span><span style=3D'color:#407F98'>.</=
+span><span
+  style=3D'color:#123786'>readdir</span><span style=3D'color:#667070'>(path=
+</span><span
+  style=3D'color:#407F98'>, {</span><span style=3D'color:#667070'> withFile=
+Types</span><span
+  style=3D'color:#407F98'>: </span><span style=3D'color:#932808'>true </spa=
+n><span
+  style=3D'color:#407F98'>}, (</span><span style=3D'color:#FF5370'>err</spa=
+n><span
+  style=3D'color:#407F98'>, </span><span style=3D'color:#FF5370'>files</spa=
+n><span
+  style=3D'color:#407F98'>) </span><span style=3D'color:#4F1C71'>=3D&gt; </=
+span><span
+  style=3D'color:#407F98'>{</span></p>
+  <p style=3D'margin:0in;font-family:Consolas;font-size:12.0pt'><span
+  style=3D'color:#667070'>&nbsp; &nbsp; files</span><span style=3D'color:#4=
+07F98'>.</span><span
+  style=3D'color:#123786'>forEach</span><span style=3D'color:#667070'>(</sp=
+an><span
+  style=3D'color:#407F98'>(</span><span style=3D'color:#FF5370'>file</span>=
+<span
+  style=3D'color:#407F98'>) </span><span style=3D'color:#4F1C71'>=3D&gt; </=
+span><span
+  style=3D'color:#407F98'>{</span></p>
+  <p style=3D'margin:0in;font-family:Consolas;font-size:12.0pt'><span
+  style=3D'color:#667070'>&nbsp; &nbsp; &nbsp; </span><span style=3D'font-s=
+tyle:
+  italic;color:#407F98'>if</span><span style=3D'color:#667070'> (file</span=
+><span
+  style=3D'color:#407F98'>.</span><span style=3D'color:#123786'>isDirectory=
+</span><span
+  style=3D'color:#667070'>()) </span><span style=3D'color:#407F98'>{</span>=
+</p>
+  <p style=3D'margin:0in;font-family:Consolas;font-size:12.0pt'><span
+  style=3D'color:#667070'>&nbsp; &nbsp; &nbsp; &nbsp; </span><span
+  style=3D'color:#123786'>readDirectory</span><span style=3D'color:#667070'=
+>(</span><span
+  style=3D'color:#407F98'>`${</span><span style=3D'color:#667070'>path</spa=
+n><span
+  style=3D'color:#407F98'>}</span><span style=3D'color:#869F61'>/</span><sp=
+an
+  style=3D'color:#407F98'>${</span><span style=3D'color:#667070'>file</span=
+><span
+  style=3D'color:#407F98'>.</span><span style=3D'color:#667070'>name</span>=
+<span
+  style=3D'color:#407F98'>}`</span><span style=3D'color:#667070'>)</span><s=
+pan
+  style=3D'color:#407F98'>;</span></p>
+  <p style=3D'margin:0in;font-family:Consolas;font-size:12.0pt'><span
+  style=3D'color:#667070'>&nbsp; &nbsp; &nbsp; </span><span style=3D'color:=
+#407F98'>}
+  </span><span style=3D'font-style:italic;color:#407F98'>else </span><span
+  style=3D'color:#407F98'>{</span></p>
+  <p style=3D'margin:0in;font-size:12.0pt'><span style=3D'font-family:Conso=
+las;
+  color:#667070'>&nbsp; &nbsp; &nbsp; &nbsp; console</span><span
+  style=3D'font-family:Consolas;color:#407F98'>.</span><span style=3D'font-=
+family:
+  Consolas;color:#123786'>log</span><span style=3D'font-family:Consolas;
+  color:#667070'>(</span><span style=3D'font-family:Consolas;color:#407F98'=
+>&quot;</span><span
+  style=3D'font-family:"Microsoft YaHei";color:#869F61'>文件名为：</sp=
+an><span
+  style=3D'font-family:Consolas;color:#407F98'>&quot;,</span><span
+  style=3D'font-family:Consolas;color:#667070'> file</span><span
+  style=3D'font-family:Consolas;color:#407F98'>.</span><span style=3D'font-=
+family:
+  Consolas;color:#667070'>name)</span><span style=3D'font-family:Consolas;
+  color:#407F98'>;</span></p>
+  <p style=3D'margin:0in;font-family:Consolas;font-size:12.0pt'><span
+  style=3D'color:#667070'>&nbsp; &nbsp; &nbsp; </span><span style=3D'color:=
+#407F98'>}</span></p>
+  <p style=3D'margin:0in;font-family:Consolas;font-size:12.0pt'><span
+  style=3D'color:#667070'>&nbsp; &nbsp; </span><span style=3D'color:#407F98=
+'>}</span><span
+  style=3D'color:#667070'>)</span><span style=3D'color:#407F98'>;</span></p>
+  <p style=3D'margin:0in;font-family:Consolas;font-size:12.0pt'><span
+  style=3D'color:#667070'>&nbsp; </span><span style=3D'color:#407F98'>}</sp=
+an><span
+  style=3D'color:#667070'>)</span><span style=3D'color:#407F98'>;</span></p>
+  <p style=3D'margin:0in;font-family:Consolas;font-size:12.0pt;color:#407F9=
+8'>}</p>
+  <p style=3D'margin:0in;font-family:Consolas;font-size:12.0pt'><span
+  style=3D'color:#123786'>readDirectory</span><span style=3D'color:#667070'=
+>(</span><span
+  style=3D'color:#407F98'>&quot;</span><span style=3D'color:#869F61'>./www<=
+/span><span
+  style=3D'color:#407F98'>&quot;</span><span style=3D'color:#667070'>)</spa=
+n><span
+  style=3D'color:#407F98'>;</span></p>
+  </td>
+ </tr>
+</table>
+
+</div>
+
+<p style=3D'margin:0in;margin-left:.75in;font-family:Calibri;font-size:11.0=
+pt'>&nbsp;</p>
+
+<ul type=3Ddisc style=3D'direction:ltr;unicode-bidi:embed;margin-top:0in;
+ margin-bottom:0in'>
+ <li style=3D'margin-top:0;margin-bottom:0;vertical-align:middle;color:#E84=
+C22'
+     lang=3Den-US><span style=3D'font-weight:bold;text-decoration:underline;
+     font-family:微软雅黑;font-size:11.0pt'>fs.rename(oldPath, newPath,=
+ callback)</span></li>
+ <ul type=3Dcircle style=3D'direction:ltr;unicode-bidi:embed;margin-top:0in;
+  margin-bottom:0in'>
+  <li style=3D'margin-top:0;margin-bottom:0;vertical-align:middle'><span
+      style=3D'font-family:"Microsoft YaHei";font-size:11.0pt'>参数：</s=
+pan></li>
+  <ul type=3Ddisc style=3D'direction:ltr;unicode-bidi:embed;margin-top:0in;
+   margin-bottom:0in'>
+   <li style=3D'margin-top:0;margin-bottom:0;vertical-align:middle' lang=3D=
+en-US><span
+       style=3D'font-family:微软雅黑;font-size:11.0pt'>oldPath</span></=
+li>
+   <li style=3D'margin-top:0;margin-bottom:0;vertical-align:middle' lang=3D=
+en-US><span
+       style=3D'font-family:微软雅黑;font-size:11.0pt'>newPath</span></=
+li>
+   <li style=3D'margin-top:0;margin-bottom:0;vertical-align:middle'><span
+       style=3D'font-family:微软雅黑;font-size:11.0pt' lang=3Den-US>cal=
+lback</span><span
+       style=3D'font-family:微软雅黑;font-size:11.0pt' lang=3Dzh-CN>：=
+</span></li>
+   <ul type=3Dsquare style=3D'direction:ltr;unicode-bidi:embed;margin-top:0=
+in;
+    margin-bottom:0in'>
+    <li style=3D'margin-top:0;margin-bottom:0;vertical-align:middle' lang=
+=3Den-US><span
+        style=3D'font-family:微软雅黑;font-size:11.0pt'>err</span></li>
+   </ul>
+  </ul>
+ </ul>
+</ul>
+
+<div style=3D'direction:ltr'>
+
+<table border=3D1 cellpadding=3D0 cellspacing=3D0 valign=3Dtop style=3D'dir=
+ection:ltr;
+ border-collapse:collapse;border-style:solid;border-color:#A3A3A3;border-wi=
+dth:
+ 1pt;margin-left:.3333in' title=3D"" summary=3D"">
+ <tr>
+  <td style=3D'border-style:solid;border-color:#A3A3A3;border-width:1pt;
+  vertical-align:top;width:6.0236in;padding:2.0pt 3.0pt 2.0pt 3.0pt'>
+  <p style=3D'margin:0in;font-size:12.0pt;color:#546E7A'><span style=3D'fon=
+t-style:
+  italic;font-family:Consolas'>// 1. </span><span style=3D'font-style:itali=
+c;
+  font-family:"Microsoft YaHei"'>文件夹重命名</span></p>
+  <p style=3D'margin:0in;font-family:Consolas;font-size:12.0pt;color:#546E7=
+A'><span
+  style=3D'font-style:italic'>fs.rename(&quot;./www&quot;, &quot;./aaa&quot=
+;,
+  (err) =3D&gt; {</span></p>
+  <p style=3D'margin:0in;font-family:Consolas;font-size:12.0pt;color:#546E7=
+A'><span
+  style=3D'font-style:italic'>&nbsp; console.log(err);</span></p>
+  <p style=3D'margin:0in;font-family:Consolas;font-size:12.0pt;color:#546E7=
+A'><span
+  style=3D'font-style:italic'>});</span></p>
+  <p style=3D'margin:0in;font-family:Consolas;font-size:12.0pt;color:#546E7=
+A'>&nbsp;</p>
+  <p style=3D'margin:0in;font-size:12.0pt;color:#546E7A'><span style=3D'fon=
+t-style:
+  italic;font-family:Consolas'>// 2. </span><span style=3D'font-style:itali=
+c;
+  font-family:"Microsoft YaHei"'>文件重命名</span></p>
+  <p style=3D'margin:0in;font-family:Consolas;font-size:12.0pt'><span
+  style=3D'color:#667070'>fs</span><span style=3D'color:#407F98'>.</span><s=
+pan
+  style=3D'color:#123786'>rename</span><span style=3D'color:#667070'>(</spa=
+n><span
+  style=3D'color:#407F98'>&quot;</span><span style=3D'color:#869F61'>./ccc.=
+txt</span><span
+  style=3D'color:#407F98'>&quot;, &quot;</span><span style=3D'color:#869F61=
+'>./cc1.txt</span><span
+  style=3D'color:#407F98'>&quot;, (</span><span style=3D'color:#FF5370'>err=
+</span><span
+  style=3D'color:#407F98'>) </span><span style=3D'color:#4F1C71'>=3D&gt; </=
+span><span
+  style=3D'color:#407F98'>{</span></p>
+  <p style=3D'margin:0in;font-family:Consolas;font-size:12.0pt'><span
+  style=3D'color:#667070'>&nbsp; console</span><span style=3D'color:#407F98=
+'>.</span><span
+  style=3D'color:#123786'>log</span><span style=3D'color:#667070'>(err)</sp=
+an><span
+  style=3D'color:#407F98'>;</span></p>
+  <p style=3D'margin:0in;font-family:Consolas;font-size:12.0pt'><span
+  style=3D'color:#407F98'>}</span><span style=3D'color:#667070'>)</span><sp=
+an
+  style=3D'color:#407F98'>;</span></p>
+  </td>
+ </tr>
+</table>
+
+</div>
+
+<p style=3D'margin:0in;font-family:"Microsoft YaHei";font-size:11.0pt'>&nbs=
+p;</p>
+
+<p style=3D'margin:0in;font-family:"Microsoft YaHei";font-size:11.0pt'>&nbs=
+p;</p>
+
+<h2 style=3D'margin:0in;font-size:14.0pt;color:#2E75B5'><span style=3D'font=
+-family:
+Calibri' lang=3Den-US>PS</span><span style=3D'font-family:"Microsoft YaHei"'
+lang=3Dzh-CN>：</span></h2>
+
+<ul type=3Ddisc style=3D'direction:ltr;unicode-bidi:embed;margin-top:0in;
+ margin-bottom:0in'>
+ <li style=3D'margin-top:0;margin-bottom:0;vertical-align:middle'><span
+     style=3D'font-family:"Microsoft YaHei";font-size:11.0pt' lang=3Dzh-CN>=
+支持文件系统</span><span
+     style=3D'font-weight:bold;text-decoration:underline;font-family:"Micro=
+soft YaHei";
+     font-size:11.0pt;color:#E84C22' lang=3Den-US>flags</span></li>
+</ul>
+
+<div style=3D'direction:ltr'>
+
+<table border=3D1 cellpadding=3D0 cellspacing=3D0 valign=3Dtop style=3D'dir=
+ection:ltr;
+ border-collapse:collapse;border-style:solid;border-color:#A3A3A3;border-wi=
+dth:
+ 1pt;margin-left:.3333in' title=3D"" summary=3D"">
+ <tr>
+  <td style=3D'border-style:solid;border-color:#A3A3A3;border-width:1pt;
+  vertical-align:top;width:.6673in;padding:2.0pt 3.0pt 2.0pt 3.0pt'>
+  <p style=3D'margin:0in;font-family:"Microsoft YaHei";font-size:11.0pt;
+  text-align:center' lang=3Den-US>w</p>
+  </td>
+  <td style=3D'border-style:solid;border-color:#A3A3A3;border-width:1pt;
+  vertical-align:top;width:2.7125in;padding:2.0pt 3.0pt 2.0pt 3.0pt'>
+  <p style=3D'margin:0in;font-family:"Microsoft YaHei";font-size:11.0pt'>�=
+�开文件写入</p>
+  </td>
+  <td style=3D'border-style:solid;border-color:#A3A3A3;border-width:1pt;
+  vertical-align:top;width:1.7437in;padding:2.0pt 3.0pt 2.0pt 3.0pt'>
+  <p style=3D'margin:0in;font-family:"Microsoft YaHei";font-size:11.0pt'><s=
+pan
+  lang=3Den-US>writeFile</span><span lang=3Dzh-CN>默认值</span></p>
+  </td>
+ </tr>
+ <tr>
+  <td style=3D'border-style:solid;border-color:#A3A3A3;border-width:1pt;
+  vertical-align:top;width:.6673in;padding:2.0pt 3.0pt 2.0pt 3.0pt'>
+  <p style=3D'margin:0in;font-family:"Microsoft YaHei";font-size:11.0pt;
+  text-align:center' lang=3Den-US>w+</p>
+  </td>
+  <td style=3D'border-style:solid;border-color:#A3A3A3;border-width:1pt;
+  vertical-align:top;width:2.7125in;padding:2.0pt 3.0pt 2.0pt 3.0pt'>
+  <p style=3D'margin:0in;font-family:"Microsoft YaHei";font-size:11.0pt'>�=
+�开文件可读可写，不存在就创建</p>
+  </td>
+  <td style=3D'border-style:solid;border-color:#A3A3A3;border-width:1pt;
+  vertical-align:top;width:1.7437in;padding:2.0pt 3.0pt 2.0pt 3.0pt'>
+  <p style=3D'margin:0in;font-family:"Microsoft YaHei";font-size:11.0pt'
+  lang=3Den-US>&nbsp;</p>
+  </td>
+ </tr>
+ <tr>
+  <td style=3D'border-style:solid;border-color:#A3A3A3;border-width:1pt;
+  vertical-align:top;width:.6673in;padding:2.0pt 3.0pt 2.0pt 3.0pt'>
+  <p style=3D'margin:0in;font-family:"Microsoft YaHei";font-size:11.0pt;
+  text-align:center' lang=3Den-US>r</p>
+  </td>
+  <td style=3D'border-style:solid;border-color:#A3A3A3;border-width:1pt;
+  vertical-align:top;width:2.7125in;padding:2.0pt 3.0pt 2.0pt 3.0pt'>
+  <p style=3D'margin:0in;font-family:"Microsoft YaHei";font-size:11.0pt'>�=
+�开文件读取</p>
+  </td>
+  <td style=3D'border-style:solid;border-color:#A3A3A3;border-width:1pt;
+  vertical-align:top;width:1.7437in;padding:2.0pt 3.0pt 2.0pt 3.0pt'>
+  <p style=3D'margin:0in;font-family:"Microsoft YaHei";font-size:11.0pt'><s=
+pan
+  lang=3Den-US>readFile</span><span lang=3Dzh-CN>默认值</span></p>
+  </td>
+ </tr>
+ <tr>
+  <td style=3D'border-style:solid;border-color:#A3A3A3;border-width:1pt;
+  vertical-align:top;width:.6673in;padding:2.0pt 3.0pt 2.0pt 3.0pt'>
+  <p style=3D'margin:0in;font-family:"Microsoft YaHei";font-size:11.0pt;
+  text-align:center' lang=3Den-US>r+</p>
+  </td>
+  <td style=3D'border-style:solid;border-color:#A3A3A3;border-width:1pt;
+  vertical-align:top;width:2.7125in;padding:2.0pt 3.0pt 2.0pt 3.0pt'>
+  <p style=3D'margin:0in;font-family:"Microsoft YaHei";font-size:11.0pt'>�=
+�开文件可读可写，不存在就报错</p>
+  </td>
+  <td style=3D'border-style:solid;border-color:#A3A3A3;border-width:1pt;
+  vertical-align:top;width:1.7437in;padding:2.0pt 3.0pt 2.0pt 3.0pt'>
+  <p style=3D'margin:0in;font-family:"Microsoft YaHei";font-size:11.0pt'
+  lang=3Den-US>&nbsp;</p>
+  </td>
+ </tr>
+ <tr>
+  <td style=3D'border-style:solid;border-color:#A3A3A3;border-width:1pt;
+  vertical-align:top;width:.6673in;padding:2.0pt 3.0pt 2.0pt 3.0pt'>
+  <p style=3D'margin:0in;font-family:"Microsoft YaHei";font-size:11.0pt;
+  text-align:center' lang=3Den-US>a</p>
+  </td>
+  <td style=3D'border-style:solid;border-color:#A3A3A3;border-width:1pt;
+  vertical-align:top;width:2.7125in;padding:2.0pt 3.0pt 2.0pt 3.0pt'>
+  <p style=3D'margin:0in;font-family:"Microsoft YaHei";font-size:11.0pt'>�=
+�开文件，在末尾加上流</p>
+  </td>
+  <td style=3D'border-style:solid;border-color:#A3A3A3;border-width:1pt;
+  vertical-align:top;width:1.7437in;padding:2.0pt 3.0pt 2.0pt 3.0pt'>
+  <p style=3D'margin:0in;font-family:"Microsoft YaHei";font-size:11.0pt'
+  lang=3Den-US>&nbsp;</p>
+  </td>
+ </tr>
+ <tr>
+  <td style=3D'border-style:solid;border-color:#A3A3A3;border-width:1pt;
+  vertical-align:top;width:.6673in;padding:2.0pt 3.0pt 2.0pt 3.0pt'>
+  <p style=3D'margin:0in;font-family:"Microsoft YaHei";font-size:11.0pt;
+  text-align:center' lang=3Den-US>a+</p>
+  </td>
+  <td style=3D'border-style:solid;border-color:#A3A3A3;border-width:1pt;
+  vertical-align:top;width:2.7125in;padding:2.0pt 3.0pt 2.0pt 3.0pt'>
+  <p style=3D'margin:0in;font-family:"Microsoft YaHei";font-size:11.0pt'>�=
+�开文件可读可写，在末尾加流</p>
+  </td>
+  <td style=3D'border-style:solid;border-color:#A3A3A3;border-width:1pt;
+  vertical-align:top;width:1.7437in;padding:2.0pt 3.0pt 2.0pt 3.0pt'>
+  <p style=3D'margin:0in;font-family:"Microsoft YaHei";font-size:11.0pt'
+  lang=3Den-US>&nbsp;</p>
+  </td>
+ </tr>
+</table>
+
+</div>
+
+<p style=3D'margin:0in;margin-left:.375in;font-family:"Microsoft YaHei";
+font-size:11.0pt'>&nbsp;</p>
+
+<ul type=3Ddisc style=3D'direction:ltr;unicode-bidi:embed;margin-top:0in;
+ margin-bottom:0in'>
+ <li style=3D'margin-top:0;margin-bottom:0;vertical-align:middle'><span
+     style=3D'font-family:"Microsoft YaHei";font-size:11.0pt' lang=3Dzh-CN>=
+文件描述符（</span><span
+     style=3D'font-family:"Microsoft YaHei";font-size:11.0pt' lang=3Den-US>=
+File
+     descriptors</span><span style=3D'font-family:"Microsoft YaHei";font-si=
+ze:
+     11.0pt' lang=3Dzh-CN>）</span></li>
+ <ol type=3Da style=3D'direction:ltr;unicode-bidi:embed;margin-top:0in;marg=
+in-bottom:
+  0in;font-family:Calibri;font-size:11.0pt;font-weight:normal;font-style:no=
+rmal'>
+  <li value=3D1 style=3D'margin-top:0;margin-bottom:0;vertical-align:middle=
+'><span
+      style=3D'font-family:"Microsoft YaHei";font-size:11.0pt;font-weight:n=
+ormal;
+      font-style:normal;font-family:"Microsoft YaHei";font-size:11.0pt'
+      lang=3Dzh-CN>操作系统上，每一个</span><span style=3D'font-fa=
+mily:"Microsoft YaHei";
+      font-size:11.0pt;font-weight:normal;font-style:normal;font-family:"Mi=
+crosoft YaHei";
+      font-size:11.0pt' lang=3Den-US> </span><span style=3D'font-family:"Mi=
+crosoft YaHei";
+      font-size:11.0pt;font-weight:bold;font-style:italic;font-weight:bold;
+      font-style:italic;text-decoration:underline;font-family:"Microsoft Ya=
+Hei";
+      font-size:11.0pt;color:#E84C22' lang=3Dzh-CN>进程</span><span
+      style=3D'font-family:"Microsoft YaHei";font-size:11.0pt;font-weight:n=
+ormal;
+      font-style:normal;font-family:"Microsoft YaHei";font-size:11.0pt'
+      lang=3Den-US> </span><span style=3D'font-family:"Microsoft YaHei";fon=
+t-size:
+      11.0pt;font-weight:normal;font-style:normal;font-family:"Microsoft Ya=
+Hei";
+      font-size:11.0pt' lang=3Dzh-CN>中，内核都维护着一张用于�=
+�录文件</span><span
+      style=3D'font-family:"Microsoft YaHei";font-size:11.0pt;font-weight:n=
+ormal;
+      font-style:normal;font-family:"Microsoft YaHei";font-size:11.0pt'
+      lang=3Den-US> </span><span style=3D'font-family:"Microsoft YaHei";fon=
+t-size:
+      11.0pt;font-weight:bold;font-style:italic;font-weight:bold;font-style:
+      italic;text-decoration:underline;font-family:"Microsoft YaHei";
+      font-size:11.0pt;color:#E84C22' lang=3Dzh-CN>描述符（数字类型=
+）</span></li>
+ </ol>
+</ul>
+
+<p style=3D'margin:0in;margin-left:.375in;font-family:"Microsoft YaHei";
+font-size:11.0pt'><span lang=3Dzh-CN>和</span><span lang=3Den-US> </span><=
+span
+style=3D'font-weight:bold;font-style:italic;text-decoration:underline;color=
+:#E84C22'
+lang=3Dzh-CN>当前打开着的文件或资源</span><span lang=3Den-US> </=
+span><span lang=3Dzh-CN>的</span><span
+lang=3Den-US> </span><span style=3D'font-weight:bold;font-style:italic;text=
+-decoration:
+underline;color:#E84C22' lang=3Dzh-CN>映射</span><span lang=3Den-US> </sp=
+an><span
+lang=3Dzh-CN>关系的</span><span lang=3Den-US> </span><span style=3D'font=
+-weight:bold;
+font-style:italic;text-decoration:underline;color:#E84C22' lang=3Dzh-CN>表=
+格。</span></p>
+
+<ol type=3Da style=3D'direction:ltr;unicode-bidi:embed;margin-top:0in;margi=
+n-bottom:
+ 0in;font-family:Calibri;font-size:11.0pt;font-weight:normal;font-style:nor=
+mal'>
+ <li value=3D1 style=3D'margin-top:0;margin-bottom:0;vertical-align:middle'=
+><span
+     style=3D'font-family:"Microsoft YaHei";font-size:11.0pt;font-weight:no=
+rmal;
+     font-style:normal;font-family:"Microsoft YaHei";font-size:11.0pt'
+     lang=3Dzh-CN>在系统层面上，所有</span><span style=3D'font-fam=
+ily:"Microsoft YaHei";
+     font-size:11.0pt;font-weight:normal;font-style:normal;font-family:"Mic=
+rosoft YaHei";
+     font-size:11.0pt' lang=3Den-US> </span><span style=3D'font-family:"Mic=
+rosoft YaHei";
+     font-size:11.0pt;font-weight:bold;font-style:italic;font-weight:bold;
+     font-style:italic;text-decoration:underline;font-family:"Microsoft YaH=
+ei";
+     font-size:11.0pt;color:#E84C22' lang=3Dzh-CN>文件系统操作</span>=
+<span
+     style=3D'font-family:"Microsoft YaHei";font-size:11.0pt;font-weight:no=
+rmal;
+     font-style:normal;font-family:"Microsoft YaHei";font-size:11.0pt'
+     lang=3Den-US> </span><span style=3D'font-family:"Microsoft YaHei";font=
+-size:
+     11.0pt;font-weight:normal;font-style:normal;font-family:"Microsoft YaH=
+ei";
+     font-size:11.0pt' lang=3Dzh-CN>都是用这些文件描述符来</span=
+><span style=3D'font-family:
+     "Microsoft YaHei";font-size:11.0pt;font-weight:normal;font-style:norma=
+l;
+     font-family:"Microsoft YaHei";font-size:11.0pt' lang=3Den-US> </span><=
+span
+     style=3D'font-family:"Microsoft YaHei";font-size:11.0pt;font-weight:bo=
+ld;
+     font-style:italic;font-weight:bold;font-style:italic;text-decoration:u=
+nderline;
+     font-family:"Microsoft YaHei";font-size:11.0pt;color:#E84C22' lang=3Dz=
+h-CN>标识和跟踪</span><span
+     style=3D'font-family:"Microsoft YaHei";font-size:11.0pt;font-weight:no=
+rmal;
+     font-style:normal;font-family:"Microsoft YaHei";font-size:11.0pt'
+     lang=3Den-US> </span><span style=3D'font-family:"Microsoft YaHei";font=
+-size:
+     11.0pt;font-weight:normal;font-style:normal;font-family:"Microsoft YaH=
+ei";
+     font-size:11.0pt' lang=3Dzh-CN>每个特定文件。</span></li>
+ <li style=3D'margin-top:0;margin-bottom:0;vertical-align:middle'><span
+     style=3D'font-family:MicrosoftYaHei-Bold;font-size:11.0pt'>为了简�=
+�用户的工作，</span><span
+     style=3D'font-family:Calibri;font-size:11.0pt'>Node.js </span><span
+     style=3D'font-family:MicrosoftYaHei-Bold;font-size:11.0pt'>抽象出�=
+�作系统之间的特定差异，并为所有打开的文件分配</span><=
+/li>
+</ol>
+
+<p style=3D'margin:0in;margin-left:.375in;font-family:MicrosoftYaHei-Bold;
+font-size:11.0pt'>一个数字型的文件描述符。</p>
+
+<div style=3D'direction:ltr'>
+
+<table border=3D1 cellpadding=3D0 cellspacing=3D0 valign=3Dtop style=3D'dir=
+ection:ltr;
+ border-collapse:collapse;border-style:solid;border-color:#A3A3A3;border-wi=
+dth:
+ 1pt;margin-left:.3333in' title=3D"" summary=3D"">
+ <tr>
+  <td style=3D'border-style:solid;border-color:#A3A3A3;border-width:1pt;
+  vertical-align:top;width:6.0562in;padding:2.0pt 3.0pt 2.0pt 3.0pt'>
+  <p style=3D'margin:0in;font-size:12.0pt;color:#546E7A'><span style=3D'fon=
+t-style:
+  italic;font-family:Consolas'>// </span><span style=3D'font-style:italic;
+  font-family:"Microsoft YaHei"'>打开一个文件</span></p>
+  <p style=3D'margin:0in;font-family:Consolas;font-size:12.0pt'><span
+  style=3D'color:#667070'>fs</span><span style=3D'color:#407F98'>.</span><s=
+pan
+  style=3D'color:#123786'>open</span><span style=3D'color:#667070'>(</span>=
+<span
+  style=3D'color:#407F98'>&quot;</span><span style=3D'color:#869F61'>./aaa.=
+txt</span><span
+  style=3D'color:#407F98'>&quot;, (</span><span style=3D'color:#FF5370'>err=
+</span><span
+  style=3D'color:#407F98'>, </span><span style=3D'color:#FF5370'>fd</span><=
+span
+  style=3D'color:#407F98'>) </span><span style=3D'color:#4F1C71'>=3D&gt; </=
+span><span
+  style=3D'color:#407F98'>{</span></p>
+  <p style=3D'margin:0in;font-family:Consolas;font-size:12.0pt'><span
+  style=3D'color:#667070'>&nbsp; </span><span style=3D'font-style:italic;
+  color:#407F98'>if</span><span style=3D'color:#667070'> (err) </span><span
+  style=3D'color:#407F98'>{</span></p>
+  <p style=3D'margin:0in;font-family:Consolas;font-size:12.0pt'><span
+  style=3D'color:#667070'>&nbsp; &nbsp; console</span><span style=3D'color:=
+#407F98'>.</span><span
+  style=3D'color:#123786'>log</span><span style=3D'color:#667070'>(err)</sp=
+an><span
+  style=3D'color:#407F98'>;</span></p>
+  <p style=3D'margin:0in;margin-left:.375in;font-family:"Microsoft YaHei";
+  font-size:12.0pt;color:#407F98' lang=3Den-US>return</p>
+  <p style=3D'margin:0in;font-family:Consolas;font-size:12.0pt'><span
+  style=3D'color:#667070'>&nbsp; </span><span style=3D'color:#407F98'>}</sp=
+an></p>
+  <p style=3D'margin:0in;font-family:Consolas;font-size:12.0pt;color:#407F9=
+8'>&nbsp;</p>
+  <p style=3D'margin:0in;font-size:12.0pt'><span style=3D'font-family:Conso=
+las;
+  color:#407F98'>&nbsp; </span><span style=3D'font-style:italic;font-family=
+:Consolas;
+  color:#546E7A'>// 1. </span><span style=3D'font-style:italic;font-family:=
+"Microsoft YaHei";
+  color:#546E7A'>得到文件描述符</span></p>
+  <p style=3D'margin:0in;font-family:Consolas;font-size:12.0pt'><span
+  style=3D'color:#667070'>&nbsp; console</span><span style=3D'color:#407F98=
+'>.</span><span
+  style=3D'color:#123786'>log</span><span style=3D'color:#667070'>(fd)</spa=
+n><span
+  style=3D'color:#407F98'>;</span></p>
+  <p style=3D'margin:0in;font-family:Consolas;font-size:12.0pt;color:#407F9=
+8'>&nbsp;</p>
+  <p style=3D'margin:0in;font-size:12.0pt'><span style=3D'font-family:Conso=
+las;
+  color:#407F98'>&nbsp; </span><span style=3D'font-style:italic;font-family=
+:Consolas;
+  color:#546E7A'>// 2. </span><span style=3D'font-style:italic;font-family:=
+"Microsoft YaHei";
+  color:#546E7A'>读取文件的信息</span></p>
+  <p style=3D'margin:0in;font-family:Consolas;font-size:12.0pt'><span
+  style=3D'color:#667070'>&nbsp; fs</span><span style=3D'color:#407F98'>.</=
+span><span
+  style=3D'color:#123786'>fstat</span><span style=3D'color:#667070'>(fd</sp=
+an><span
+  style=3D'color:#407F98'>, (</span><span style=3D'color:#FF5370'>err</span=
+><span
+  style=3D'color:#407F98'>, </span><span style=3D'color:#FF5370'>stats</spa=
+n><span
+  style=3D'color:#407F98'>) </span><span style=3D'color:#4F1C71'>=3D&gt; </=
+span><span
+  style=3D'color:#407F98'>{</span></p>
+  <p style=3D'margin:0in;font-family:Consolas;font-size:12.0pt'><span
+  style=3D'color:#667070'>&nbsp; &nbsp; </span><span style=3D'font-style:it=
+alic;
+  color:#407F98'>if</span><span style=3D'color:#667070'> (err) </span><span
+  style=3D'color:#407F98'>{</span></p>
+  <p style=3D'margin:0in;font-family:Consolas;font-size:12.0pt'><span
+  style=3D'color:#667070'>&nbsp; &nbsp; &nbsp; console</span><span
+  style=3D'color:#407F98'>.</span><span style=3D'color:#123786'>log</span><=
+span
+  style=3D'color:#667070'>(err)</span><span style=3D'color:#407F98'>;</span=
+></p>
+  <p style=3D'margin:0in;margin-left:.375in;font-family:Calibri;font-size:1=
+2.0pt;
+  color:#407F98' lang=3Den-US><span style=3D'mso-spacerun:yes'>     </s=
+pan>return</p>
+  <p style=3D'margin:0in;font-family:Consolas;font-size:12.0pt'><span
+  style=3D'color:#667070'>&nbsp; &nbsp; </span><span style=3D'color:#407F98=
+'>}</span></p>
+  <p style=3D'margin:0in;font-family:Consolas;font-size:12.0pt;color:#407F9=
+8'>&nbsp;</p>
+  <p style=3D'margin:0in;font-size:12.0pt'><span style=3D'font-family:Conso=
+las;
+  color:#407F98'>&nbsp; &nbsp; </span><span style=3D'font-style:italic;
+  font-family:Consolas;color:#546E7A'>// </span><span style=3D'font-style:i=
+talic;
+  font-family:"Microsoft YaHei";color:#546E7A'>读取文件基本信息</sp=
+an></p>
+  <p style=3D'margin:0in;font-family:Consolas;font-size:12.0pt'><span
+  style=3D'color:#667070'>&nbsp; &nbsp; console</span><span style=3D'color:=
+#407F98'>.</span><span
+  style=3D'color:#123786'>log</span><span style=3D'color:#667070'>(stats)</=
+span><span
+  style=3D'color:#407F98'>;</span></p>
+  <p style=3D'margin:0in;font-family:Consolas;font-size:12.0pt;color:#407F9=
+8'>&nbsp;</p>
+  <p style=3D'margin:0in;line-height:16pt;font-family:Calibri;font-size:11.=
+0pt'>&nbsp;</p>
+  <p style=3D'margin:0in;font-size:12.0pt;color:#546E7A'><span style=3D'fon=
+t-style:
+  italic;font-family:Calibri' lang=3Den-US><span
+  style=3D'mso-spacerun:yes'>          </span></span><span style=
+=3D'font-style:
+  italic;font-family:Consolas' lang=3Dzh-CN>// 3. </span><span style=3D'fon=
+t-style:
+  italic;font-family:"Microsoft YaHei"' lang=3Dzh-CN>手动关闭已打开�=
+��件</span></p>
+  <p style=3D'margin:0in;font-family:Consolas;font-size:12.0pt'><span
+  style=3D'color:#667070'>&nbsp; &nbsp; fs</span><span style=3D'color:#407F=
+98'>.</span><span
+  style=3D'color:#123786'>close</span><span style=3D'color:#667070'>(fd)</s=
+pan><span
+  style=3D'color:#407F98'>;</span></p>
+  <p style=3D'margin:0in;font-family:Consolas;font-size:12.0pt;color:#407F9=
+8'>&nbsp;</p>
+  <p style=3D'margin:0in;font-family:Consolas;font-size:12.0pt'><span
+  style=3D'color:#667070'>&nbsp; </span><span style=3D'color:#407F98'>}</sp=
+an><span
+  style=3D'color:#667070'>)</span><span style=3D'color:#407F98'>;</span></p>
+  <p style=3D'margin:0in;font-family:Consolas;font-size:12.0pt'><span
+  style=3D'color:#407F98'>}</span><span style=3D'color:#667070'>)</span><sp=
+an
+  style=3D'color:#407F98'>;</span></p>
+  </td>
+ </tr>
+</table>
+
+</div>
+
+<p style=3D'margin:0in;margin-left:.375in;font-family:"Microsoft YaHei";
+font-size:11.0pt'>&nbsp;</p>
+
+</div>
+
+</div>
+
+</div>
+
+<div>
+
+<p style=3D'margin:0in'>&nbsp;</p>
+
+<p style=3D'text-align:left;margin:0in;font-family:Arial;font-size:9pt;
+color:#969696;direction:ltr'>已使用 OneNote 创建。</p>
+
+</div>
+
+</body>
+
+</html>

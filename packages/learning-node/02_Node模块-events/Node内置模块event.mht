@@ -1,0 +1,1019 @@
+MIME-Version: 1.0
+Content-Location: file:///C:/F48CA234/file7268.htm
+Content-Transfer-Encoding: quoted-printable
+Content-Type: text/html; charset="utf-8"
+
+<html xmlns:o=3D"urn:schemas-microsoft-com:office:office"
+xmlns:dt=3D"uuid:C2F41010-65B3-11d1-A29F-00AA00C14882"
+xmlns=3D"http://www.w3.org/TR/REC-html40">
+
+<head>
+<meta http-equiv=3DContent-Type content=3D"text/html; charset=3Dutf-8">
+<meta name=3DProgId content=3DOneNote.File>
+<meta name=3DGenerator content=3D"Microsoft OneNote 15">
+<link id=3DMain-File rel=3DMain-File href=3Dfile7268.htm>
+<link rel=3DFile-List href=3D"file7268.files/filelist.xml">
+</head>
+
+<body lang=3Dzh-CN style=3D'font-family:Calibri;font-size:11.0pt'>
+
+<div style=3D'direction:ltr;border-width:100%'>
+
+<div style=3D'direction:ltr;margin-top:0in;margin-left:0in;width:7.8201in'>
+
+<div style=3D'direction:ltr;margin-top:0in;margin-left:0in;width:2.9555in'>
+
+<p style=3D'margin:0in;font-size:20.0pt'><span style=3D'font-family:"Calibr=
+i Light"'
+lang=3Den-US>Node</span><span style=3D'font-family:"Microsoft YaHei Light"'
+lang=3Dzh-CN>内置模块</span><span style=3D'font-family:"Microsoft YaHei=
+ Light"'
+lang=3Den-US>event</span></p>
+
+</div>
+
+<div style=3D'direction:ltr;margin-top:.0388in;margin-left:0in;width:1.7034=
+in'>
+
+<p style=3D'margin:0in;font-size:10.0pt;color:#767676'><span style=3D'font-=
+family:
+Calibri'>2023</span><span style=3D'font-family:"Microsoft YaHei"'>年</span=
+><span
+style=3D'font-family:Calibri'>12</span><span style=3D'font-family:"Microsof=
+t YaHei"'>月</span><span
+style=3D'font-family:Calibri'>21</span><span style=3D'font-family:"Microsof=
+t YaHei"'>日</span></p>
+
+<p style=3D'margin:0in;font-family:Calibri;font-size:10.0pt;color:#767676'>=
+4:23</p>
+
+</div>
+
+<div style=3D'direction:ltr;margin-top:.4895in;margin-left:0in;width:7.8201=
+in'>
+
+<h2 style=3D'margin:0in;font-size:14.0pt;color:#2E75B5'><span style=3D'font=
+-family:
+"Microsoft YaHei"' lang=3Dzh-CN>内置模块</span><span style=3D'font-fami=
+ly:Calibri'
+lang=3Den-US>event</span></h2>
+
+<ul type=3Ddisc style=3D'direction:ltr;unicode-bidi:embed;margin-top:0in;
+ margin-bottom:0in'>
+ <li style=3D'margin-top:0;margin-bottom:0;vertical-align:middle'><span
+     style=3D'font-family:"Microsoft YaHei";font-size:11.0pt' lang=3Den-US>=
+Node</span><span
+     style=3D'font-family:"Microsoft YaHei";font-size:11.0pt' lang=3Dzh-CN>=
+中的核心</span><span
+     style=3D'font-family:"Microsoft YaHei";font-size:11.0pt' lang=3Den-US>=
+API</span><span
+     style=3D'font-family:"Microsoft YaHei";font-size:11.0pt' lang=3Dzh-CN>=
+都是基于异步事件驱动的</span></li>
+ <ul type=3Dcircle style=3D'direction:ltr;unicode-bidi:embed;margin-top:0in;
+  margin-bottom:0in'>
+  <li style=3D'margin-top:0;margin-bottom:0;vertical-align:middle'><span
+      style=3D'font-family:"Microsoft YaHei";font-size:11.0pt' lang=3Dzh-CN=
+>我们可以通过</span><span
+      style=3D'font-family:"Microsoft YaHei";font-size:11.0pt' lang=3Den-US>
+      Emitters </span><span style=3D'font-family:"Microsoft YaHei";font-siz=
+e:
+      11.0pt' lang=3Dzh-CN>发出某一事件</span></li>
+  <li style=3D'margin-top:0;margin-bottom:0;vertical-align:middle'><span
+      style=3D'font-family:"Microsoft YaHei";font-size:11.0pt' lang=3Dzh-CN=
+>通过</span><span
+      style=3D'font-family:"Microsoft YaHei";font-size:11.0pt' lang=3Den-US>
+      Listers </span><span style=3D'font-family:"Microsoft YaHei";font-size=
+:11.0pt'
+      lang=3Dzh-CN>传入回调</span></li>
+ </ul>
+</ul>
+
+<p style=3D'margin:0in;font-family:"Microsoft YaHei";font-size:11.0pt'>&nbs=
+p;</p>
+
+<h2 style=3D'margin:0in;font-family:"Microsoft YaHei";font-size:14.0pt;
+color:#2E75B5'>基本用法</h2>
+
+<ul type=3Ddisc style=3D'direction:ltr;unicode-bidi:embed;margin-top:0in;
+ margin-bottom:0in'>
+ <li style=3D'margin-top:0;margin-bottom:0;vertical-align:middle;color:#E84=
+C22'
+     lang=3Den-US><span style=3D'font-weight:bold;text-decoration:underline;
+     font-family:"Microsoft YaHei";font-size:11.0pt'>emitter.on(eventName,
+     Listener)</span></li>
+ <ul type=3Dcircle style=3D'direction:ltr;unicode-bidi:embed;margin-top:0in;
+  margin-bottom:0in'>
+  <li style=3D'margin-top:0;margin-bottom:0;vertical-align:middle'><span
+      style=3D'font-family:"Microsoft YaHei";font-size:11.0pt'>参数</span=
+></li>
+  <ul type=3Ddisc style=3D'direction:ltr;unicode-bidi:embed;margin-top:0in;
+   margin-bottom:0in'>
+   <li style=3D'margin-top:0;margin-bottom:0;vertical-align:middle'><span
+       style=3D'font-family:"Microsoft YaHei";font-size:11.0pt' lang=3Den-U=
+S>eventName</span><span
+       style=3D'font-family:"Microsoft YaHei";font-size:11.0pt' lang=3Dzh-C=
+N>：事件名称</span></li>
+   <li style=3D'margin-top:0;margin-bottom:0;vertical-align:middle'><span
+       style=3D'font-family:"Microsoft YaHei";font-size:11.0pt' lang=3Den-U=
+S>listener</span><span
+       style=3D'font-family:"Microsoft YaHei";font-size:11.0pt' lang=3Dzh-C=
+N>：回调函数</span></li>
+  </ul>
+  <li style=3D'margin-top:0;margin-bottom:0;vertical-align:middle'><span
+      style=3D'font-family:"Microsoft YaHei";font-size:11.0pt'>返回</span=
+></li>
+  <ul type=3Ddisc style=3D'direction:ltr;unicode-bidi:embed;margin-top:0in;
+   margin-bottom:0in'>
+   <li style=3D'margin-top:0;margin-bottom:0;vertical-align:middle'><span
+       style=3D'font-family:"Microsoft YaHei";font-size:11.0pt' lang=3Den-U=
+S>&lt;EventEmitter&gt;<span
+       style=3D'mso-spacerun:yes'>  </span></span><span style=3D'font-fami=
+ly:"Microsoft YaHei";
+       font-size:11.0pt' lang=3Dzh-CN>支持链式调用</span><span style=
+=3D'font-family:"Microsoft YaHei";
+       font-size:11.0pt' lang=3Den-US> </span></li>
+  </ul>
+ </ul>
+ <li style=3D'margin-top:0;margin-bottom:0;vertical-align:middle;color:#E84=
+C22'
+     lang=3Den-US><span style=3D'font-weight:bold;text-decoration:underline;
+     font-family:"Microsoft YaHei";font-size:11.0pt'>emitter.emit(eventName=
+[,
+     ...args])</span></li>
+ <ul type=3Dcircle style=3D'direction:ltr;unicode-bidi:embed;margin-top:0in;
+  margin-bottom:0in'>
+  <li style=3D'margin-top:0;margin-bottom:0;vertical-align:middle'><span
+      style=3D'font-family:"Microsoft YaHei";font-size:11.0pt'>参数</span=
+></li>
+  <ul type=3Ddisc style=3D'direction:ltr;unicode-bidi:embed;margin-top:0in;
+   margin-bottom:0in'>
+   <li style=3D'margin-top:0;margin-bottom:0;vertical-align:middle'><span
+       style=3D'font-family:"Microsoft YaHei";font-size:11.0pt' lang=3Den-U=
+S>eventName</span><span
+       style=3D'font-family:"Microsoft YaHei";font-size:11.0pt' lang=3Dzh-C=
+N>：事件名称</span></li>
+   <li style=3D'margin-top:0;margin-bottom:0;vertical-align:middle'><span
+       style=3D'font-family:Calibri;font-size:11.0pt' lang=3Den-US>…args<=
+/span><span
+       style=3D'font-family:"Microsoft YaHei";font-size:11.0pt' lang=3Dzh-C=
+N>：参数</span></li>
+  </ul>
+  <li style=3D'margin-top:0;margin-bottom:0;vertical-align:middle'><span
+      style=3D'font-family:"Microsoft YaHei";font-size:11.0pt'>返回</span=
+></li>
+  <ul type=3Ddisc style=3D'direction:ltr;unicode-bidi:embed;margin-top:0in;
+   margin-bottom:0in'>
+   <li style=3D'margin-top:0;margin-bottom:0;vertical-align:middle'><span
+       style=3D'font-family:Calibri;font-size:11.0pt' lang=3Den-US>&lt;bool=
+ean&gt;<span
+       style=3D'mso-spacerun:yes'>    </span></span><span style=3D'font-=
+family:
+       "Microsoft YaHei";font-size:11.0pt' lang=3Dzh-CN>事件有监听器�=
+��回</span><span
+       style=3D'font-family:"Microsoft YaHei";font-size:11.0pt' lang=3Den-U=
+S> true</span><span
+       style=3D'font-family:"Microsoft YaHei";font-size:11.0pt' lang=3Dzh-C=
+N>，否则返回</span><span
+       style=3D'font-family:"Microsoft YaHei";font-size:11.0pt' lang=3Den-U=
+S> false</span></li>
+  </ul>
+ </ul>
+ <li style=3D'margin-top:0;margin-bottom:0;vertical-align:middle;color:#E84=
+C22'
+     lang=3Den-US><span style=3D'font-weight:bold;text-decoration:underline;
+     font-family:"Microsoft YaHei";font-size:11.0pt'>emitter.off(eventName,
+     listener)</span></li>
+ <ul type=3Dcircle style=3D'direction:ltr;unicode-bidi:embed;margin-top:0in;
+  margin-bottom:0in'>
+  <li style=3D'margin-top:0;margin-bottom:0;vertical-align:middle'><span
+      style=3D'font-family:"Microsoft YaHei";font-size:11.0pt'>参数</span=
+></li>
+  <ul type=3Ddisc style=3D'direction:ltr;unicode-bidi:embed;margin-top:0in;
+   margin-bottom:0in'>
+   <li style=3D'margin-top:0;margin-bottom:0;vertical-align:middle' lang=3D=
+en-US><span
+       style=3D'font-family:"Microsoft YaHei";font-size:11.0pt'>eventName</=
+span></li>
+   <li style=3D'margin-top:0;margin-bottom:0;vertical-align:middle' lang=3D=
+en-US><span
+       style=3D'font-family:"Microsoft YaHei";font-size:11.0pt'>listener</s=
+pan></li>
+  </ul>
+  <li style=3D'margin-top:0;margin-bottom:0;vertical-align:middle'><span
+      style=3D'font-family:"Microsoft YaHei";font-size:11.0pt'>返回</span=
+></li>
+  <ul type=3Ddisc style=3D'direction:ltr;unicode-bidi:embed;margin-top:0in;
+   margin-bottom:0in'>
+   <li style=3D'margin-top:0;margin-bottom:0;vertical-align:middle' lang=3D=
+en-US><span
+       style=3D'font-family:Calibri;font-size:11.0pt'>&lt;EventEmitter&gt;<=
+/span></li>
+  </ul>
+ </ul>
+</ul>
+
+<p style=3D'margin:0in;font-family:"Microsoft YaHei";font-size:11.0pt;color=
+:#E84C22'
+lang=3Den-US>&nbsp;</p>
+
+<div style=3D'direction:ltr'>
+
+<table border=3D1 cellpadding=3D0 cellspacing=3D0 valign=3Dtop style=3D'dir=
+ection:ltr;
+ border-collapse:collapse;border-style:solid;border-color:#A3A3A3;border-wi=
+dth:
+ 1pt;margin-left:.3333in' title=3D"" summary=3D"">
+ <tr>
+  <td style=3D'border-style:solid;border-color:#A3A3A3;border-width:1pt;
+  vertical-align:top;width:7.4402in;padding:2.0pt 3.0pt 2.0pt 3.0pt'>
+  <p style=3D'margin:0in;font-size:12.0pt;color:#546E7A'><span style=3D'fon=
+t-style:
+  italic;font-family:Consolas'>// events </span><span style=3D'font-style:i=
+talic;
+  font-family:"Microsoft YaHei"'>模块中的事件总线</span></p>
+  <p style=3D'margin:0in;font-family:Consolas;font-size:12.0pt'><span
+  style=3D'color:#4F1C71'>const </span><span style=3D'color:#F07178'>EventE=
+mitter </span><span
+  style=3D'color:#4F1C71'>=3D </span><span style=3D'color:#123786'>require<=
+/span><span
+  style=3D'color:#667070'>(</span><span style=3D'color:#407F98'>&quot;</spa=
+n><span
+  style=3D'color:#869F61'>events</span><span style=3D'color:#407F98'>&quot;=
+</span><span
+  style=3D'color:#667070'>)</span><span style=3D'color:#407F98'>;</span></p>
+  <p style=3D'margin:0in;font-family:Consolas;font-size:12.0pt;color:#407F9=
+8'>&nbsp;</p>
+  <p style=3D'margin:0in;font-size:12.0pt;color:#546E7A'><span style=3D'fon=
+t-style:
+  italic;font-family:Consolas'>// </span><span style=3D'font-style:italic;
+  font-family:"Microsoft YaHei"'>创建</span><span style=3D'font-style:ita=
+lic;
+  font-family:Consolas'>EventEmitter</span><span style=3D'font-style:italic;
+  font-family:"Microsoft YaHei"'>实例</span></p>
+  <p style=3D'margin:0in;font-family:Consolas;font-size:12.0pt'><span
+  style=3D'color:#4F1C71'>const </span><span style=3D'color:#F07178'>emitte=
+r </span><span
+  style=3D'color:#4F1C71'>=3D new </span><span style=3D'color:#123786'>Even=
+tEmitter</span><span
+  style=3D'color:#667070'>()</span><span style=3D'color:#407F98'>;</span></=
+p>
+  <p style=3D'margin:0in;font-family:Consolas;font-size:12.0pt;color:#407F9=
+8'>&nbsp;</p>
+  <p style=3D'margin:0in;font-size:12.0pt;color:#546E7A'><span style=3D'fon=
+t-style:
+  italic;font-family:Consolas'>// </span><span style=3D'font-style:italic;
+  font-family:"Microsoft YaHei"'>监听事件</span></p>
+  <p style=3D'margin:0in;font-family:Consolas;font-size:12.0pt'><span
+  style=3D'color:#667070'>emitter</span><span style=3D'color:#407F98'>.</sp=
+an><span
+  style=3D'color:#123786'>on</span><span style=3D'color:#667070'>(</span><s=
+pan
+  style=3D'color:#407F98'>&quot;</span><span style=3D'color:#869F61'>hhh</s=
+pan><span
+  style=3D'color:#407F98'>&quot;, () </span><span style=3D'color:#4F1C71'>=
+=3D&gt; </span><span
+  style=3D'color:#407F98'>{</span></p>
+  <p style=3D'margin:0in;font-size:12.0pt'><span style=3D'font-family:Conso=
+las;
+  color:#667070'>&nbsp; console</span><span style=3D'font-family:Consolas;
+  color:#407F98'>.</span><span style=3D'font-family:Consolas;color:#123786'=
+>log</span><span
+  style=3D'font-family:Consolas;color:#667070'>(</span><span style=3D'font-=
+family:
+  Consolas;color:#407F98'>&quot;</span><span style=3D'font-family:"Microsof=
+t YaHei";
+  color:#869F61'>我被触发了</span><span style=3D'font-family:Consolas;=
+color:#407F98'>&quot;</span><span
+  style=3D'font-family:Consolas;color:#667070'>)</span><span style=3D'font-=
+family:
+  Consolas;color:#407F98'>;</span></p>
+  <p style=3D'margin:0in;font-family:Consolas;font-size:12.0pt'><span
+  style=3D'color:#407F98'>}</span><span style=3D'color:#667070'>)</span><sp=
+an
+  style=3D'color:#407F98'>;</span></p>
+  <p style=3D'margin:0in;font-family:Consolas;font-size:12.0pt;color:#407F9=
+8'>&nbsp;</p>
+  <p style=3D'margin:0in;font-size:12.0pt;color:#546E7A'><span style=3D'fon=
+t-style:
+  italic;font-family:Consolas'>// </span><span style=3D'font-style:italic;
+  font-family:"Microsoft YaHei"'>发射事件</span></p>
+  <p style=3D'margin:0in;font-family:Consolas;font-size:12.0pt'><span
+  style=3D'color:#123786'>setTimeout</span><span style=3D'color:#667070'>(<=
+/span><span
+  style=3D'color:#407F98'>() </span><span style=3D'color:#4F1C71'>=3D&gt; <=
+/span><span
+  style=3D'color:#407F98'>{</span></p>
+  <p style=3D'margin:0in;font-family:Consolas;font-size:12.0pt'><span
+  style=3D'color:#667070'>&nbsp; emitter</span><span style=3D'color:#407F98=
+'>.</span><span
+  style=3D'color:#123786'>emit</span><span style=3D'color:#667070'>(</span>=
+<span
+  style=3D'color:#407F98'>&quot;</span><span style=3D'color:#869F61'>hhh</s=
+pan><span
+  style=3D'color:#407F98'>&quot;</span><span style=3D'color:#667070'>)</spa=
+n><span
+  style=3D'color:#407F98'>;</span></p>
+  <p style=3D'margin:0in;font-family:Consolas;font-size:12.0pt'><span
+  style=3D'color:#407F98'>}, </span><span style=3D'color:#932808'>1000</spa=
+n><span
+  style=3D'color:#667070'>)</span><span style=3D'color:#407F98'>;</span></p>
+  </td>
+ </tr>
+</table>
+
+</div>
+
+<p style=3D'margin:0in;margin-left:.375in;font-family:"Microsoft YaHei";
+font-size:11.0pt' lang=3Den-US>&nbsp;</p>
+
+<h2 style=3D'margin:0in;font-family:"Microsoft YaHei";font-size:14.0pt;
+color:#2E75B5'>补充一些用法</h2>
+
+<p style=3D'margin:0in;font-family:"Microsoft YaHei";font-size:11.0pt'>&nbs=
+p;</p>
+
+<ul type=3Ddisc style=3D'direction:ltr;unicode-bidi:embed;margin-top:0in;
+ margin-bottom:0in'>
+ <li style=3D'margin-top:0;margin-bottom:0;vertical-align:middle;color:#E84=
+C22'
+     lang=3Den-US><span style=3D'font-weight:bold;text-decoration:underline;
+     font-family:"Microsoft YaHei";font-size:11.0pt'>emitter.eventNames()</=
+span></li>
+ <ul type=3Dcircle style=3D'direction:ltr;unicode-bidi:embed;margin-top:0in;
+  margin-bottom:0in'>
+  <li style=3D'margin-top:0;margin-bottom:0;vertical-align:middle'><span
+      style=3D'font-family:"Microsoft YaHei";font-size:11.0pt' lang=3Dzh-CN=
+>参数</span><span
+      style=3D'font-family:"Microsoft YaHei";font-size:11.0pt' lang=3Den-US=
+> </span><span
+      style=3D'font-family:"Microsoft YaHei";font-size:11.0pt' lang=3Dzh-CN=
+>无</span></li>
+  <li style=3D'margin-top:0;margin-bottom:0;vertical-align:middle'><span
+      style=3D'font-family:"Microsoft YaHei";font-size:11.0pt'>返回</span=
+></li>
+  <ul type=3Ddisc style=3D'direction:ltr;unicode-bidi:embed;margin-top:0in;
+   margin-bottom:0in'>
+   <li style=3D'margin-top:0;margin-bottom:0;vertical-align:middle'><span
+       style=3D'font-family:Calibri;font-size:11.0pt' lang=3Den-US>&lt;Arra=
+y&gt; </span><span
+       style=3D'font-family:"Microsoft YaHei";font-size:11.0pt' lang=3Dzh-C=
+N>返回列出触发器已为其注册监听器的事件的数组</span></l=
+i>
+  </ul>
+ </ul>
+</ul>
+
+<p style=3D'margin:0in;font-family:Calibri;font-size:11.0pt'>&nbsp;</p>
+
+<ul type=3Ddisc style=3D'direction:ltr;unicode-bidi:embed;margin-top:0in;
+ margin-bottom:0in'>
+ <li style=3D'margin-top:0;margin-bottom:0;vertical-align:middle;color:#E84=
+C22'
+     lang=3Den-US><span style=3D'font-weight:bold;text-decoration:underline;
+     font-family:"Microsoft YaHei";font-size:11.0pt'>emitter.getMaxListener=
+s()</span></li>
+ <ul type=3Dcircle style=3D'direction:ltr;unicode-bidi:embed;margin-top:0in;
+  margin-bottom:0in'>
+  <li style=3D'margin-top:0;margin-bottom:0;vertical-align:middle'><span
+      style=3D'font-family:"Microsoft YaHei";font-size:11.0pt' lang=3Dzh-CN=
+>参数</span><span
+      style=3D'font-family:"Microsoft YaHei";font-size:11.0pt' lang=3Den-US=
+> </span><span
+      style=3D'font-family:"Microsoft YaHei";font-size:11.0pt' lang=3Dzh-CN=
+>无</span></li>
+  <li style=3D'margin-top:0;margin-bottom:0;vertical-align:middle'><span
+      style=3D'font-family:"Microsoft YaHei";font-size:11.0pt'>返回</span=
+></li>
+  <ul type=3Ddisc style=3D'direction:ltr;unicode-bidi:embed;margin-top:0in;
+   margin-bottom:0in'>
+   <li style=3D'margin-top:0;margin-bottom:0;vertical-align:middle'><span
+       style=3D'font-family:Calibri;font-size:11.0pt' lang=3Den-US>&lt;Arra=
+y&gt; </span><span
+       style=3D'font-family:"Microsoft YaHei";font-size:11.0pt' lang=3Dzh-C=
+N>返回</span><span
+       style=3D'font-family:"Microsoft YaHei";font-size:11.0pt' lang=3Den-U=
+S>
+       EventEmitter</span><span style=3D'font-family:"Microsoft YaHei";
+       font-size:11.0pt' lang=3Dzh-CN>最大的监听器数量</span></li>
+  </ul>
+ </ul>
+</ul>
+
+<p style=3D'margin:0in;font-family:Calibri;font-size:11.0pt'>&nbsp;</p>
+
+<ul type=3Ddisc style=3D'direction:ltr;unicode-bidi:embed;margin-top:0in;
+ margin-bottom:0in'>
+ <li style=3D'margin-top:0;margin-bottom:0;vertical-align:middle;color:#E84=
+C22'
+     lang=3Den-US><span style=3D'font-weight:bold;text-decoration:underline;
+     font-family:"Microsoft YaHei";font-size:11.0pt'>emitter.listenerCount(=
+eventName[,
+     listener])</span></li>
+ <ul type=3Dcircle style=3D'direction:ltr;unicode-bidi:embed;margin-top:0in;
+  margin-bottom:0in'>
+  <li style=3D'margin-top:0;margin-bottom:0;vertical-align:middle'><span
+      style=3D'font-family:"Microsoft YaHei";font-size:11.0pt'>参数</span=
+></li>
+  <ul type=3Ddisc style=3D'direction:ltr;unicode-bidi:embed;margin-top:0in;
+   margin-bottom:0in'>
+   <li style=3D'margin-top:0;margin-bottom:0;vertical-align:middle' lang=3D=
+en-US><span
+       style=3D'font-family:"Microsoft YaHei";font-size:11.0pt'>eventName</=
+span></li>
+   <li style=3D'margin-top:0;margin-bottom:0;vertical-align:middle'><span
+       style=3D'font-family:"Microsoft YaHei";font-size:11.0pt' lang=3Den-U=
+S>listener</span><span
+       style=3D'font-family:"Microsoft YaHei";font-size:11.0pt' lang=3Dzh-C=
+N>：事件处理函数</span></li>
+  </ul>
+  <li style=3D'margin-top:0;margin-bottom:0;vertical-align:middle'><span
+      style=3D'font-family:"Microsoft YaHei";font-size:11.0pt' lang=3Dzh-CN=
+>返回：</span><span
+      style=3D'font-family:Calibri;font-size:11.0pt' lang=3Den-US>&lt;integ=
+er&gt;<span
+      style=3D'mso-spacerun:yes'>  </span></span><span style=3D'font-famil=
+y:"Microsoft YaHei";
+      font-size:11.0pt' lang=3Den-US>eventName</span><span style=3D'font-fa=
+mily:
+      "Microsoft YaHei";font-size:11.0pt' lang=3Dzh-CN>事件监听器的�=
+�量</span><span
+      style=3D'font-family:"Microsoft YaHei";font-size:11.0pt' lang=3Den-US=
+> </span><span
+      style=3D'font-family:"Microsoft YaHei";font-size:11.0pt' lang=3Dzh-CN=
+>或者</span><span
+      style=3D'font-family:"Microsoft YaHei";font-size:11.0pt' lang=3Den-US=
+> </span><span
+      style=3D'font-family:"Microsoft YaHei";font-size:11.0pt' lang=3Dzh-CN=
+>事件中对应监听器</span><span
+      style=3D'font-family:"Microsoft YaHei";font-size:11.0pt' lang=3Den-US=
+>listener</span><span
+      style=3D'font-family:"Microsoft YaHei";font-size:11.0pt' lang=3Dzh-CN=
+>的次数</span></li>
+ </ul>
+</ul>
+
+<div style=3D'direction:ltr'>
+
+<table border=3D1 cellpadding=3D0 cellspacing=3D0 valign=3Dtop style=3D'dir=
+ection:ltr;
+ border-collapse:collapse;border-style:solid;border-color:#A3A3A3;border-wi=
+dth:
+ 1pt;margin-left:.3333in' title=3D"" summary=3D"">
+ <tr>
+  <td style=3D'border-style:solid;border-color:#A3A3A3;border-width:1pt;
+  vertical-align:top;width:7.4402in;padding:2.0pt 3.0pt 2.0pt 3.0pt'>
+  <p style=3D'margin:0in;font-family:Consolas;font-size:12.0pt'><span
+  style=3D'color:#4F1C71'>const </span><span style=3D'color:#F07178'>EventE=
+mitter </span><span
+  style=3D'color:#4F1C71'>=3D </span><span style=3D'color:#123786'>require<=
+/span><span
+  style=3D'color:#667070'>(</span><span style=3D'color:#407F98'>&quot;</spa=
+n><span
+  style=3D'color:#869F61'>events</span><span style=3D'color:#407F98'>&quot;=
+</span><span
+  style=3D'color:#667070'>)</span><span style=3D'color:#407F98'>;</span></p>
+  <p style=3D'margin:0in;font-family:Consolas;font-size:12.0pt'><span
+  style=3D'color:#4F1C71'>const </span><span style=3D'color:#F07178'>ee </s=
+pan><span
+  style=3D'color:#4F1C71'>=3D new </span><span style=3D'color:#123786'>Even=
+tEmitter</span><span
+  style=3D'color:#667070'>()</span><span style=3D'color:#407F98'>;</span></=
+p>
+  <p style=3D'margin:0in;font-family:Consolas;font-size:12.0pt;color:#407F9=
+8'>&nbsp;</p>
+  <p style=3D'margin:0in;font-family:Consolas;font-size:12.0pt'><span
+  style=3D'color:#667070'>ee</span><span style=3D'color:#407F98'>.</span><s=
+pan
+  style=3D'color:#123786'>on</span><span style=3D'color:#667070'>(</span><s=
+pan
+  style=3D'color:#407F98'>&quot;</span><span style=3D'color:#869F61'>www</s=
+pan><span
+  style=3D'color:#407F98'>&quot;, () </span><span style=3D'color:#4F1C71'>=
+=3D&gt; </span><span
+  style=3D'color:#407F98'>{}</span><span style=3D'color:#667070'>)</span><s=
+pan
+  style=3D'color:#407F98'>;</span></p>
+  <p style=3D'margin:0in;font-family:Consolas;font-size:12.0pt'><span
+  style=3D'color:#667070'>ee</span><span style=3D'color:#407F98'>.</span><s=
+pan
+  style=3D'color:#123786'>on</span><span style=3D'color:#667070'>(</span><s=
+pan
+  style=3D'color:#407F98'>&quot;</span><span style=3D'color:#869F61'>www</s=
+pan><span
+  style=3D'color:#407F98'>&quot;, () </span><span style=3D'color:#4F1C71'>=
+=3D&gt; </span><span
+  style=3D'color:#407F98'>{}</span><span style=3D'color:#667070'>)</span><s=
+pan
+  style=3D'color:#407F98'>;</span></p>
+  <p style=3D'margin:0in;font-family:Consolas;font-size:12.0pt'><span
+  style=3D'color:#667070'>ee</span><span style=3D'color:#407F98'>.</span><s=
+pan
+  style=3D'color:#123786'>on</span><span style=3D'color:#667070'>(</span><s=
+pan
+  style=3D'color:#407F98'>&quot;</span><span style=3D'color:#869F61'>www</s=
+pan><span
+  style=3D'color:#407F98'>&quot;, () </span><span style=3D'color:#4F1C71'>=
+=3D&gt; </span><span
+  style=3D'color:#407F98'>{}</span><span style=3D'color:#667070'>)</span><s=
+pan
+  style=3D'color:#407F98'>;</span></p>
+  <p style=3D'margin:0in;font-family:Consolas;font-size:12.0pt'><span
+  style=3D'color:#667070'>ee</span><span style=3D'color:#407F98'>.</span><s=
+pan
+  style=3D'color:#123786'>on</span><span style=3D'color:#667070'>(</span><s=
+pan
+  style=3D'color:#407F98'>&quot;</span><span style=3D'color:#869F61'>www</s=
+pan><span
+  style=3D'color:#407F98'>&quot;, () </span><span style=3D'color:#4F1C71'>=
+=3D&gt; </span><span
+  style=3D'color:#407F98'>{}</span><span style=3D'color:#667070'>)</span><s=
+pan
+  style=3D'color:#407F98'>;</span></p>
+  <p style=3D'margin:0in;font-family:Consolas;font-size:12.0pt'><span
+  style=3D'color:#667070'>ee</span><span style=3D'color:#407F98'>.</span><s=
+pan
+  style=3D'color:#123786'>on</span><span style=3D'color:#667070'>(</span><s=
+pan
+  style=3D'color:#407F98'>&quot;</span><span style=3D'color:#869F61'>abc</s=
+pan><span
+  style=3D'color:#407F98'>&quot;, () </span><span style=3D'color:#4F1C71'>=
+=3D&gt; </span><span
+  style=3D'color:#407F98'>{}</span><span style=3D'color:#667070'>)</span><s=
+pan
+  style=3D'color:#407F98'>;</span></p>
+  <p style=3D'margin:0in;font-family:Consolas;font-size:12.0pt'><span
+  style=3D'color:#667070'>ee</span><span style=3D'color:#407F98'>.</span><s=
+pan
+  style=3D'color:#123786'>on</span><span style=3D'color:#667070'>(</span><s=
+pan
+  style=3D'color:#407F98'>&quot;</span><span style=3D'color:#869F61'>abc</s=
+pan><span
+  style=3D'color:#407F98'>&quot;, () </span><span style=3D'color:#4F1C71'>=
+=3D&gt; </span><span
+  style=3D'color:#407F98'>{}</span><span style=3D'color:#667070'>)</span><s=
+pan
+  style=3D'color:#407F98'>;</span></p>
+  <p style=3D'margin:0in;font-family:Consolas;font-size:12.0pt;color:#407F9=
+8'>&nbsp;</p>
+  <p style=3D'margin:0in;font-size:12.0pt;color:#546E7A'><span style=3D'fon=
+t-style:
+  italic;font-family:Consolas'>// 1. </span><span style=3D'font-style:itali=
+c;
+  font-family:"Microsoft YaHei"'>获得所有监听对象的名称</span></=
+p>
+  <p style=3D'margin:0in;font-family:Consolas;font-size:12.0pt'><span
+  style=3D'color:#667070'>console</span><span style=3D'color:#407F98'>.</sp=
+an><span
+  style=3D'color:#123786'>log</span><span style=3D'color:#667070'>(ee</span=
+><span
+  style=3D'color:#407F98'>.</span><span style=3D'color:#123786'>eventNames<=
+/span><span
+  style=3D'color:#667070'>())</span><span style=3D'color:#407F98'>;</span><=
+/p>
+  <p style=3D'margin:0in;font-family:Consolas;font-size:12.0pt;color:#407F9=
+8'>&nbsp;</p>
+  <p style=3D'margin:0in;font-size:12.0pt;color:#546E7A'><span style=3D'fon=
+t-style:
+  italic;font-family:Consolas'>// 2. </span><span style=3D'font-style:itali=
+c;
+  font-family:"Microsoft YaHei"'>获取最大的监听器个数</span></p>
+  <p style=3D'margin:0in;font-family:Consolas;font-size:12.0pt'><span
+  style=3D'color:#667070'>console</span><span style=3D'color:#407F98'>.</sp=
+an><span
+  style=3D'color:#123786'>log</span><span style=3D'color:#667070'>(ee</span=
+><span
+  style=3D'color:#407F98'>.</span><span style=3D'color:#123786'>getMaxListe=
+ners</span><span
+  style=3D'color:#667070'>())</span><span style=3D'color:#407F98'>;</span><=
+/p>
+  <p style=3D'margin:0in;font-family:Consolas;font-size:12.0pt;color:#407F9=
+8'>&nbsp;</p>
+  <p style=3D'margin:0in;font-size:12.0pt;color:#546E7A'><span style=3D'fon=
+t-style:
+  italic;font-family:Consolas'>// 3. </span><span style=3D'font-style:itali=
+c;
+  font-family:"Microsoft YaHei"'>获取某个事件对应监听器的个数=
+</span></p>
+  <p style=3D'margin:0in;font-family:Consolas;font-size:12.0pt'><span
+  style=3D'color:#667070'>console</span><span style=3D'color:#407F98'>.</sp=
+an><span
+  style=3D'color:#123786'>log</span><span style=3D'color:#667070'>(ee</span=
+><span
+  style=3D'color:#407F98'>.</span><span style=3D'color:#123786'>listenerCou=
+nt</span><span
+  style=3D'color:#667070'>(</span><span style=3D'color:#407F98'>&quot;</spa=
+n><span
+  style=3D'color:#869F61'>www</span><span style=3D'color:#407F98'>&quot;</s=
+pan><span
+  style=3D'color:#667070'>))</span><span style=3D'color:#407F98'>;</span></=
+p>
+  <p style=3D'margin:0in;font-family:Consolas;font-size:12.0pt;color:#407F9=
+8'>&nbsp;</p>
+  <p style=3D'margin:0in;font-size:12.0pt;color:#546E7A'><span style=3D'fon=
+t-style:
+  italic;font-family:Consolas'>// 4. </span><span style=3D'font-style:itali=
+c;
+  font-family:"Microsoft YaHei"'>获取某个事件对应所有监听器</s=
+pan></p>
+  <p style=3D'margin:0in;font-family:Consolas;font-size:12.0pt'><span
+  style=3D'color:#667070'>console</span><span style=3D'color:#407F98'>.</sp=
+an><span
+  style=3D'color:#123786'>log</span><span style=3D'color:#667070'>(ee</span=
+><span
+  style=3D'color:#407F98'>.</span><span style=3D'color:#123786'>listeners</=
+span><span
+  style=3D'color:#667070'>(</span><span style=3D'color:#407F98'>&quot;</spa=
+n><span
+  style=3D'color:#869F61'>abc</span><span style=3D'color:#407F98'>&quot;</s=
+pan><span
+  style=3D'color:#667070'>))</span><span style=3D'color:#407F98'>;</span></=
+p>
+  </td>
+ </tr>
+</table>
+
+</div>
+
+<p><cite style=3D'margin:0in;font-family:Calibri;font-size:9.0pt;color:#595=
+959'>&nbsp;</cite></p>
+
+<p style=3D'margin:0in;font-family:Calibri;font-size:11.0pt'>&nbsp;</p>
+
+<p><cite style=3D'margin:0in;font-family:Calibri;font-size:9.0pt;color:#595=
+959'>&nbsp;</cite></p>
+
+<ul type=3Ddisc style=3D'direction:ltr;unicode-bidi:embed;margin-top:0in;
+ margin-bottom:0in'>
+ <li style=3D'margin-top:0;margin-bottom:0;vertical-align:middle;color:#E84=
+C22'
+     lang=3Den-US><span style=3D'font-weight:bold;text-decoration:underline;
+     font-family:"Microsoft YaHei";font-size:11.0pt'>emitter.once(eventName,
+     listener)</span></li>
+ <ul type=3Dcircle style=3D'direction:ltr;unicode-bidi:embed;margin-top:0in;
+  margin-bottom:0in'>
+  <li style=3D'margin-top:0;margin-bottom:0;vertical-align:middle'><span
+      style=3D'font-family:"Microsoft YaHei";font-size:11.0pt'>参数</span=
+></li>
+  <ul type=3Ddisc style=3D'direction:ltr;unicode-bidi:embed;margin-top:0in;
+   margin-bottom:0in'>
+   <li style=3D'margin-top:0;margin-bottom:0;vertical-align:middle' lang=3D=
+en-US><span
+       style=3D'font-family:"Microsoft YaHei";font-size:11.0pt'>eventName</=
+span></li>
+   <li style=3D'margin-top:0;margin-bottom:0;vertical-align:middle' lang=3D=
+en-US><span
+       style=3D'font-family:"Microsoft YaHei";font-size:11.0pt'>listener</s=
+pan></li>
+  </ul>
+  <li style=3D'margin-top:0;margin-bottom:0;vertical-align:middle'><span
+      style=3D'font-family:"Microsoft YaHei";font-size:11.0pt'>返回</span=
+></li>
+  <ul type=3Ddisc style=3D'direction:ltr;unicode-bidi:embed;margin-top:0in;
+   margin-bottom:0in'>
+   <li style=3D'margin-top:0;margin-bottom:0;vertical-align:middle' lang=3D=
+en-US><span
+       style=3D'font-family:Calibri;font-size:11.0pt'>&lt;EventEmitter&gt;<=
+span
+       style=3D'mso-spacerun:yes'>  </span></span></li>
+  </ul>
+ </ul>
+</ul>
+
+<p style=3D'margin:0in;font-family:Calibri;font-size:11.0pt' lang=3Den-US>&=
+nbsp;</p>
+
+<ul type=3Ddisc style=3D'direction:ltr;unicode-bidi:embed;margin-top:0in;
+ margin-bottom:0in'>
+ <li style=3D'margin-top:0;margin-bottom:0;vertical-align:middle;color:#E84=
+C22'
+     lang=3Den-US><span style=3D'font-weight:bold;text-decoration:underline;
+     font-family:"Microsoft YaHei";font-size:11.0pt'>emitter.prependListene=
+r(eventName,
+     listener)</span></li>
+ <ul type=3Dcircle style=3D'direction:ltr;unicode-bidi:embed;margin-top:0in;
+  margin-bottom:0in'>
+  <li style=3D'margin-top:0;margin-bottom:0;vertical-align:middle'><span
+      style=3D'font-family:"Microsoft YaHei";font-size:11.0pt'>参数</span=
+></li>
+  <ul type=3Ddisc style=3D'direction:ltr;unicode-bidi:embed;margin-top:0in;
+   margin-bottom:0in'>
+   <li style=3D'margin-top:0;margin-bottom:0;vertical-align:middle' lang=3D=
+en-US><span
+       style=3D'font-family:"Microsoft YaHei";font-size:11.0pt'>eventName</=
+span></li>
+   <li style=3D'margin-top:0;margin-bottom:0;vertical-align:middle' lang=3D=
+en-US><span
+       style=3D'font-family:"Microsoft YaHei";font-size:11.0pt'>listener</s=
+pan></li>
+  </ul>
+  <li style=3D'margin-top:0;margin-bottom:0;vertical-align:middle'><span
+      style=3D'font-family:"Microsoft YaHei";font-size:11.0pt'>返回</span=
+></li>
+  <ul type=3Ddisc style=3D'direction:ltr;unicode-bidi:embed;margin-top:0in;
+   margin-bottom:0in'>
+   <li style=3D'margin-top:0;margin-bottom:0;vertical-align:middle' lang=3D=
+en-US><span
+       style=3D'font-family:Calibri;font-size:11.0pt'>&lt;EventEmitter&gt;<=
+span
+       style=3D'mso-spacerun:yes'>  </span></span></li>
+  </ul>
+ </ul>
+</ul>
+
+<p style=3D'margin:0in;margin-left:.75in;font-family:Calibri;font-size:11.0=
+pt'
+lang=3Den-US>&nbsp;</p>
+
+<ul type=3Ddisc style=3D'direction:ltr;unicode-bidi:embed;margin-top:0in;
+ margin-bottom:0in'>
+ <li style=3D'margin-top:0;margin-bottom:0;vertical-align:middle;color:#E84=
+C22'
+     lang=3Den-US><span style=3D'font-weight:bold;text-decoration:underline;
+     font-family:"Microsoft YaHei";font-size:11.0pt'>emitter.prependOnceLis=
+tener(eventName,
+     listener)</span></li>
+ <ul type=3Dcircle style=3D'direction:ltr;unicode-bidi:embed;margin-top:0in;
+  margin-bottom:0in'>
+  <li style=3D'margin-top:0;margin-bottom:0;vertical-align:middle'><span
+      style=3D'font-family:"Microsoft YaHei";font-size:11.0pt'>参数</span=
+></li>
+  <ul type=3Ddisc style=3D'direction:ltr;unicode-bidi:embed;margin-top:0in;
+   margin-bottom:0in'>
+   <li style=3D'margin-top:0;margin-bottom:0;vertical-align:middle' lang=3D=
+en-US><span
+       style=3D'font-family:"Microsoft YaHei";font-size:11.0pt'>eventName</=
+span></li>
+   <li style=3D'margin-top:0;margin-bottom:0;vertical-align:middle' lang=3D=
+en-US><span
+       style=3D'font-family:"Microsoft YaHei";font-size:11.0pt'>listener</s=
+pan></li>
+  </ul>
+  <li style=3D'margin-top:0;margin-bottom:0;vertical-align:middle'><span
+      style=3D'font-family:"Microsoft YaHei";font-size:11.0pt'>返回</span=
+></li>
+  <ul type=3Ddisc style=3D'direction:ltr;unicode-bidi:embed;margin-top:0in;
+   margin-bottom:0in'>
+   <li style=3D'margin-top:0;margin-bottom:0;vertical-align:middle' lang=3D=
+en-US><span
+       style=3D'font-family:Calibri;font-size:11.0pt'>&lt;EventEmitter&gt;<=
+span
+       style=3D'mso-spacerun:yes'>  </span></span></li>
+  </ul>
+ </ul>
+</ul>
+
+<p style=3D'margin:0in;margin-left:.75in;font-family:Calibri;font-size:11.0=
+pt'>&nbsp;</p>
+
+<p style=3D'margin:0in;margin-left:.375in;font-family:Calibri;font-size:11.=
+0pt'
+lang=3Den-US>&nbsp;</p>
+
+<ul type=3Ddisc style=3D'direction:ltr;unicode-bidi:embed;margin-top:0in;
+ margin-bottom:0in'>
+ <li style=3D'margin-top:0;margin-bottom:0;vertical-align:middle;color:#E84=
+C22'
+     lang=3Den-US><span style=3D'font-weight:bold;text-decoration:underline;
+     font-family:"Microsoft YaHei";font-size:11.0pt'>emitter.removeAllListe=
+ners([eventName])</span></li>
+ <ul type=3Dcircle style=3D'direction:ltr;unicode-bidi:embed;margin-top:0in;
+  margin-bottom:0in'>
+  <li style=3D'margin-top:0;margin-bottom:0;vertical-align:middle'><span
+      style=3D'font-family:"Microsoft YaHei";font-size:11.0pt'>参数</span=
+></li>
+  <ul type=3Ddisc style=3D'direction:ltr;unicode-bidi:embed;margin-top:0in;
+   margin-bottom:0in'>
+   <li style=3D'margin-top:0;margin-bottom:0;vertical-align:middle' lang=3D=
+en-US><span
+       style=3D'font-family:"Microsoft YaHei";font-size:11.0pt'>eventName</=
+span></li>
+  </ul>
+ </ul>
+</ul>
+
+<p style=3D'margin:0in;margin-left:.75in;font-family:"Microsoft YaHei";
+font-size:11.0pt'><span lang=3Dzh-CN>删除所有监听器，或指定</spa=
+n><span lang=3Den-US>eventName</span><span
+lang=3Dzh-CN>的监听器</span></p>
+
+<p style=3D'margin:0in;margin-left:.75in;font-family:"Microsoft YaHei";
+font-size:11.0pt'>&nbsp;</p>
+
+<div style=3D'direction:ltr'>
+
+<table border=3D1 cellpadding=3D0 cellspacing=3D0 valign=3Dtop style=3D'dir=
+ection:ltr;
+ border-collapse:collapse;border-style:solid;border-color:#A3A3A3;border-wi=
+dth:
+ 1pt;margin-left:.3333in' title=3D"" summary=3D"">
+ <tr>
+  <td style=3D'border-style:solid;border-color:#A3A3A3;border-width:1pt;
+  vertical-align:top;width:7.284in;padding:2.0pt 3.0pt 2.0pt 3.0pt'>
+  <p style=3D'margin:0in;font-family:Consolas;font-size:12.0pt'><span
+  style=3D'color:#4F1C71'>const </span><span style=3D'color:#F07178'>EventE=
+mitter </span><span
+  style=3D'color:#4F1C71'>=3D </span><span style=3D'color:#123786'>require<=
+/span><span
+  style=3D'color:#667070'>(</span><span style=3D'color:#407F98'>&quot;</spa=
+n><span
+  style=3D'color:#869F61'>events</span><span style=3D'color:#407F98'>&quot;=
+</span><span
+  style=3D'color:#667070'>)</span><span style=3D'color:#407F98'>;</span></p>
+  <p style=3D'margin:0in;font-family:Consolas;font-size:12.0pt'><span
+  style=3D'color:#4F1C71'>const </span><span style=3D'color:#F07178'>ee </s=
+pan><span
+  style=3D'color:#4F1C71'>=3D new </span><span style=3D'color:#123786'>Even=
+tEmitter</span><span
+  style=3D'color:#667070'>()</span><span style=3D'color:#407F98'>;</span></=
+p>
+  <p style=3D'margin:0in;font-family:Consolas;font-size:12.0pt;color:#407F9=
+8'>&nbsp;</p>
+  <p style=3D'margin:0in;font-size:12.0pt;color:#546E7A'><span style=3D'fon=
+t-style:
+  italic;font-family:Consolas'>// 1. </span><span style=3D'font-style:itali=
+c;
+  font-family:"Microsoft YaHei"'>只监听一次</span><span style=3D'font-=
+style:italic;
+  font-family:Consolas'>www</span><span style=3D'font-style:italic;font-fam=
+ily:
+  "Microsoft YaHei"'>事件</span></p>
+  <p style=3D'margin:0in;font-family:Consolas;font-size:12.0pt'><span
+  style=3D'color:#667070'>ee</span><span style=3D'color:#407F98'>.</span><s=
+pan
+  style=3D'color:#123786'>once</span><span style=3D'color:#667070'>(</span>=
+<span
+  style=3D'color:#407F98'>&quot;</span><span style=3D'color:#869F61'>www</s=
+pan><span
+  style=3D'color:#407F98'>&quot;, () </span><span style=3D'color:#4F1C71'>=
+=3D&gt; </span><span
+  style=3D'color:#407F98'>{</span></p>
+  <p style=3D'margin:0in;font-size:12.0pt'><span style=3D'font-family:Conso=
+las;
+  color:#667070'>&nbsp; console</span><span style=3D'font-family:Consolas;
+  color:#407F98'>.</span><span style=3D'font-family:Consolas;color:#123786'=
+>log</span><span
+  style=3D'font-family:Consolas;color:#667070'>(</span><span style=3D'font-=
+family:
+  Consolas;color:#407F98'>&quot;</span><span style=3D'font-family:"Microsof=
+t YaHei";
+  color:#869F61'>被触发了了了</span><span style=3D'font-family:Consol=
+as;color:#407F98'>&quot;</span><span
+  style=3D'font-family:Consolas;color:#667070'>)</span><span style=3D'font-=
+family:
+  Consolas;color:#407F98'>;</span></p>
+  <p style=3D'margin:0in;font-family:Consolas;font-size:12.0pt'><span
+  style=3D'color:#407F98'>}</span><span style=3D'color:#667070'>)</span><sp=
+an
+  style=3D'color:#407F98'>;</span></p>
+  <p style=3D'margin:0in;font-family:Consolas;font-size:12.0pt;color:#407F9=
+8'>&nbsp;</p>
+  <p style=3D'margin:0in;font-family:Consolas;font-size:12.0pt;color:#546E7=
+A'><span
+  style=3D'font-style:italic'>// ee.emit(&quot;www&quot;);</span></p>
+  <p style=3D'margin:0in;font-family:Consolas;font-size:12.0pt;color:#546E7=
+A'><span
+  style=3D'font-style:italic'>// ee.emit(&quot;www&quot;);</span></p>
+  <p style=3D'margin:0in;font-family:Consolas;font-size:12.0pt;color:#546E7=
+A'><span
+  style=3D'font-style:italic'>// ee.emit(&quot;www&quot;);</span></p>
+  <p style=3D'margin:0in;font-family:Consolas;font-size:12.0pt;color:#546E7=
+A'>&nbsp;</p>
+  <p style=3D'margin:0in;font-size:12.0pt;color:#546E7A'><span style=3D'fon=
+t-style:
+  italic;font-family:Consolas'>// 2. </span><span style=3D'font-style:itali=
+c;
+  font-family:"Microsoft YaHei"'>将监听事件添加在最前面</span></=
+p>
+  <p style=3D'margin:0in;font-family:Consolas;font-size:12.0pt'><span
+  style=3D'color:#667070'>ee</span><span style=3D'color:#407F98'>.</span><s=
+pan
+  style=3D'color:#123786'>prependListener</span><span style=3D'color:#66707=
+0'>(</span><span
+  style=3D'color:#407F98'>&quot;</span><span style=3D'color:#869F61'>www</s=
+pan><span
+  style=3D'color:#407F98'>&quot;, () </span><span style=3D'color:#4F1C71'>=
+=3D&gt; </span><span
+  style=3D'color:#407F98'>{</span></p>
+  <p style=3D'margin:0in;font-size:12.0pt'><span style=3D'font-family:Conso=
+las;
+  color:#667070'>&nbsp; console</span><span style=3D'font-family:Consolas;
+  color:#407F98'>.</span><span style=3D'font-family:Consolas;color:#123786'=
+>log</span><span
+  style=3D'font-family:Consolas;color:#667070'>(</span><span style=3D'font-=
+family:
+  Consolas;color:#407F98'>&quot;</span><span style=3D'font-family:"Microsof=
+t YaHei";
+  color:#869F61'>我是老大</span><span style=3D'font-family:Consolas;col=
+or:#407F98'>&quot;</span><span
+  style=3D'font-family:Consolas;color:#667070'>)</span><span style=3D'font-=
+family:
+  Consolas;color:#407F98'>;</span></p>
+  <p style=3D'margin:0in;font-family:Consolas;font-size:12.0pt'><span
+  style=3D'color:#407F98'>}</span><span style=3D'color:#667070'>)</span><sp=
+an
+  style=3D'color:#407F98'>;</span></p>
+  <p style=3D'margin:0in;font-family:Consolas;font-size:12.0pt;color:#407F9=
+8'>&nbsp;</p>
+  <p style=3D'margin:0in;font-family:Consolas;font-size:12.0pt;color:#546E7=
+A'><span
+  style=3D'font-style:italic'>// ee.emit(&quot;www&quot;);</span></p>
+  <p style=3D'margin:0in;font-family:Consolas;font-size:12.0pt;color:#546E7=
+A'>&nbsp;</p>
+  <p style=3D'margin:0in;font-size:12.0pt;color:#546E7A'><span style=3D'fon=
+t-style:
+  italic;font-family:Consolas'>// 3. </span><span style=3D'font-style:itali=
+c;
+  font-family:"Microsoft YaHei"'>将监听事件添加在最前面，但只=
+监听一次</span></p>
+  <p style=3D'margin:0in;font-family:Consolas;font-size:12.0pt'><span
+  style=3D'color:#667070'>ee</span><span style=3D'color:#407F98'>.</span><s=
+pan
+  style=3D'color:#123786'>prependOnceListener</span><span style=3D'color:#6=
+67070'>(</span><span
+  style=3D'color:#407F98'>&quot;</span><span style=3D'color:#869F61'>www</s=
+pan><span
+  style=3D'color:#407F98'>&quot;, () </span><span style=3D'color:#4F1C71'>=
+=3D&gt; </span><span
+  style=3D'color:#407F98'>{</span></p>
+  <p style=3D'margin:0in;font-size:12.0pt'><span style=3D'font-family:Conso=
+las;
+  color:#667070'>&nbsp; console</span><span style=3D'font-family:Consolas;
+  color:#407F98'>.</span><span style=3D'font-family:Consolas;color:#123786'=
+>log</span><span
+  style=3D'font-family:Consolas;color:#667070'>(</span><span style=3D'font-=
+family:
+  Consolas;color:#407F98'>&quot;</span><span style=3D'font-family:"Microsof=
+t YaHei";
+  color:#869F61'>嘿嘿傻了吧唧</span><span style=3D'font-family:Consol=
+as;color:#407F98'>&quot;</span><span
+  style=3D'font-family:Consolas;color:#667070'>)</span><span style=3D'font-=
+family:
+  Consolas;color:#407F98'>;</span></p>
+  <p style=3D'margin:0in;font-family:Consolas;font-size:12.0pt'><span
+  style=3D'color:#407F98'>}</span><span style=3D'color:#667070'>)</span><sp=
+an
+  style=3D'color:#407F98'>;</span></p>
+  <p style=3D'margin:0in;font-family:Consolas;font-size:12.0pt;color:#407F9=
+8'>&nbsp;</p>
+  <p style=3D'margin:0in;font-family:Consolas;font-size:12.0pt;color:#546E7=
+A'><span
+  style=3D'font-style:italic'>// ee.emit(&quot;www&quot;);</span></p>
+  <p style=3D'margin:0in;font-family:Consolas;font-size:12.0pt;color:#546E7=
+A'><span
+  style=3D'font-style:italic'>// ee.emit(&quot;www&quot;);</span></p>
+  <p style=3D'margin:0in;font-family:Consolas;font-size:12.0pt;color:#546E7=
+A'>&nbsp;</p>
+  <p style=3D'margin:0in;font-size:12.0pt;color:#546E7A'><span style=3D'fon=
+t-style:
+  italic;font-family:Consolas'>// 4. </span><span style=3D'font-style:itali=
+c;
+  font-family:"Microsoft YaHei"'>移除所有监听器</span></p>
+  <p style=3D'margin:0in;font-family:Consolas;font-size:12.0pt'><span
+  style=3D'color:#667070'>ee</span><span style=3D'color:#407F98'>.</span><s=
+pan
+  style=3D'color:#123786'>removeAllListeners</span><span style=3D'color:#66=
+7070'>()</span><span
+  style=3D'color:#407F98'>;</span></p>
+  <p style=3D'margin:0in;font-family:Consolas;font-size:12.0pt'><span
+  style=3D'color:#667070'>ee</span><span style=3D'color:#407F98'>.</span><s=
+pan
+  style=3D'color:#123786'>removeAllListeners</span><span style=3D'color:#66=
+7070'>(</span><span
+  style=3D'color:#407F98'>&quot;</span><span style=3D'color:#869F61'>www</s=
+pan><span
+  style=3D'color:#407F98'>&quot;</span><span style=3D'color:#667070'>)</spa=
+n><span
+  style=3D'color:#407F98'>;</span></p>
+  </td>
+ </tr>
+</table>
+
+</div>
+
+<p style=3D'margin:0in;font-family:Calibri;font-size:11.0pt'>&nbsp;</p>
+
+<p style=3D'margin:0in;font-family:Calibri;font-size:11.0pt'>&nbsp;</p>
+
+<p style=3D'margin:0in;font-family:Calibri;font-size:11.0pt'>&nbsp;</p>
+
+<p><cite style=3D'margin:0in;font-family:Calibri;font-size:11.0pt'>&nbsp;</=
+cite></p>
+
+</div>
+
+</div>
+
+</div>
+
+<div>
+
+<p style=3D'margin:0in'>&nbsp;</p>
+
+<p style=3D'text-align:left;margin:0in;font-family:Arial;font-size:9pt;
+color:#969696;direction:ltr'>已使用 OneNote 创建。</p>
+
+</div>
+
+</body>
+
+</html>
